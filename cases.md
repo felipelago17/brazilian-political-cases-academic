@@ -17,6 +17,13 @@
 | Coup plot (AP 2668) | Jair Bolsonaro + 7 | STF First Panel | Attempted coup, violent abolition of the democratic rule of law | Serving sentence in humanitarian house arrest; review pending | [Gazeta do Povo](https://www.gazetadopovo.com.br/republica/pgr-se-manifesta-contra-revisao-criminal-de-bolsonaro/) |
 | Coercion in the course of proceedings (AP 2782) | Eduardo Bolsonaro | STF First Panel | Used office to seek US sanctions against Brazilian authorities | Convicted – warrant outstanding | [Poder360](https://www.poder360.com.br/poder-justica/eduardo-bolsonaro-ja-consta-em-banco-de-mandados-de-prisao-abertos/) |
 
+## Legal Mechanisms (examples)
+
+| Mechanism | Meaning | Cases affected |
+|-----------|---------|----------------|
+| Lack of jurisdiction (incompetência) | Court that judged the case had no authority over it; acts annulled | Triplex, Atibaia, Instituto Lula |
+| Judicial bias (suspeição) | Judge found partial; decisions and evidence void | Triplex (extended to Atibaia) |
+
 ---
 
 *Full structured data remains in [tracker.py](tracker.py).*
