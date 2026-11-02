@@ -14,7 +14,8 @@ Every entry includes:
 
 ## Contents
 
-- [`tracker.py`](tracker.py) — Structured data of the cases (Lula & family, Bolsonaro & family, Alexandre de Moraes, legal mechanisms, etc.)
+- [`tracker.py`](tracker.py) – Structured data of the cases (Lula & family, Bolsonaro & family, Alexandre de Moraes, legal mechanisms, etc.)
+- [Cases (tables)](cases.md) – Readable tables of the reported cases
 
 ## Methodology
 
