@@ -14,7 +14,8 @@ Every entry includes:
 
 ## Contents
 
-- [tracker.py](tracker.py) — Structured data of the cases
+- [`tracker.py`](tracker.py) – Structured data of the cases
+- [Cases (tables)](cases.md) – Readable tables of the reported cases
 
 ## Methodology
 
