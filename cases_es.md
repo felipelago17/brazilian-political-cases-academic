@@ -25,6 +25,13 @@ title: Casos
 | Intento de golpe (AP 2668) | Jair Bolsonaro + 7 | 1ª Sala del STF | Intento de golpe, abolición violenta del Estado Democrático de Derecho | Cumpliendo pena en prisión domiciliaria humanitaria; revisión pendiente | [Gazeta do Povo](https://www.gazetadopovo.com.br/republica/pgr-se-manifesta-contra-revisao-criminal-de-bolsonaro/) |
 | Coacción en el curso del proceso (AP 2782) | Eduardo Bolsonaro | 1ª Sala del STF | Usó el cargo para buscar sanciones de EE.UU. contra autoridades brasileñas | Condenado – orden de arresto pendiente | [Poder360](https://www.poder360.com.br/poder-justica/eduardo-bolsonaro-ja-consta-em-banco-de-mandados-de-prisao-abertos/) |
 
+## Mecanismos jurídicos (ejemplos)
+
+| Mecanismo | Significado | Casos afectados |
+|-----------|-------------|-----------------|
+| Falta de competencia (incompetência) | El tribunal que juzgó el caso no tenía autoridad sobre él; actos anulados | Triplex, Atibaia, Instituto Lula |
+| Recusación (suspeição) | Juez considerado parcial; decisiones y pruebas anuladas | Triplex (extendido a Atibaia) |
+
 ---
 
 *Los datos estructurados completos permanecen en [tracker.py](tracker.py).*
