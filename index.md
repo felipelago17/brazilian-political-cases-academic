@@ -2,9 +2,11 @@
 layout: default
 title: Home
 ---
-[Home](./) · [Cases](cases.html) · [Português](cases_pt.html) · [Español](cases_es.html) · [Fork for collaboration](https://github.com/felipelago17/brazilian-political-cases-academic/fork)
+[Home](./) · [English](cases.html) · [Português](cases_pt.html) · [Español](cases_es.html) · [Fork](https://github.com/felipelago17/brazilian-political-cases-academic/fork)
 
 # Brazilian Political Cases – Academic Tracker
+
+**English** · [Português](index_pt.html) · [Español](index_es.html)
 
 Academic compilation of publicly reported legal cases involving major Brazilian political figures and institutions.
 
@@ -16,14 +18,14 @@ This repository documents publicly reported cases for research and academic refe
 
 Every entry includes:
 - At least one independent public source link
-- Notes on the availability of the official court or prosecutor decision
+- Notes on the availability of the official court or prosecutor decision (and how to obtain it)
 
 ## Contents
 
-- [`tracker.py`](tracker.py) – Structured data of the cases
-- [Cases (tables)](cases.html) – Readable tables of the reported cases
-- [Português](cases_pt.html) – Versão em português
-- [Español](cases_es.html) – Versión en español
+- [`tracker.py`](tracker.py) – Structured data of the cases (single source of truth)
+- [Cases – English](cases.html) – Readable tables
+- [Casos – Português](cases_pt.html)
+- [Casos – Español](cases_es.html)
 
 ## Methodology
 
@@ -39,4 +41,4 @@ This repository is open for contributions. Fork it, make your changes, and open 
 
 ## Disclaimer
 
-This repository is for educational and informational purposes only. Always verify against primary sources.
+This repository is for educational and informational purposes only. Always verify against primary sources. License: [CC BY 4.0](LICENSE).
