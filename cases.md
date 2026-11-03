@@ -1,3 +1,9 @@
+---
+layout: default
+title: Cases
+---
+[Home](./) · [Cases](cases.html) · [Fork for collaboration](https://github.com/felipelago17/brazilian-political-cases-academic/fork)
+
 # Cases
 
 ## Lula & Family
