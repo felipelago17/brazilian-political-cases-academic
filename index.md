@@ -1,3 +1,9 @@
+---
+layout: default
+title: Home
+---
+[Home](./) · [Cases](cases.html) · [Data (tracker.py)](https://github.com/felipelago17/brazilian-political-cases-academic/blob/main/tracker.py)
+
 # Brazilian Political Cases – Academic Tracker
 
 Academic compilation of publicly reported legal cases involving major Brazilian political figures and institutions.
@@ -15,7 +21,7 @@ Every entry includes:
 ## Contents
 
 - [`tracker.py`](tracker.py) – Structured data of the cases
-- [Cases (tables)](cases.md) – Readable tables of the reported cases
+- [Cases (tables)](cases.html) – Readable tables of the reported cases
 
 ## Methodology
 
