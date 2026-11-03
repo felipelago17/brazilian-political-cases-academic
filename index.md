@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-[Home](./) · [Cases](cases.html) · [Data (tracker.py)](https://github.com/felipelago17/brazilian-political-cases-academic/blob/main/tracker.py)
+[Home](./) · [Cases](cases.html) · [Fork for collaboration](https://github.com/felipelago17/brazilian-political-cases-academic/fork)
 
 # Brazilian Political Cases – Academic Tracker
 
@@ -28,6 +28,12 @@ Every entry includes:
 Sources are limited to mainstream press, legal outlets, Agência Brasil, official court/government/legislative sites, and US DOJ/Treasury. Partisan and openly campaigning outlets are excluded.
 
 **Presumption of innocence:** Allegations and investigations are not findings of guilt. This is not legal advice.
+
+## Open source collaboration
+
+This repository is open for contributions. Fork it, make your changes, and open a pull request.
+
+[Fork the repository](https://github.com/felipelago17/brazilian-political-cases-academic/fork)
 
 ## Disclaimer
 
