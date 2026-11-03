@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-[Home](./) · [Cases](cases.html) · [Fork for collaboration](https://github.com/felipelago17/brazilian-political-cases-academic/fork)
+[Home](./) · [Cases](cases.html) · [Português](cases_pt.html) · [Español](cases_es.html) · [Fork for collaboration](https://github.com/felipelago17/brazilian-political-cases-academic/fork)
 
 # Brazilian Political Cases – Academic Tracker
 
@@ -22,6 +22,8 @@ Every entry includes:
 
 - [`tracker.py`](tracker.py) – Structured data of the cases
 - [Cases (tables)](cases.html) – Readable tables of the reported cases
+- [Português](cases_pt.html) – Versão em português
+- [Español](cases_es.html) – Versión en español
 
 ## Methodology
 
