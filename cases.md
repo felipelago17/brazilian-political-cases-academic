@@ -2,9 +2,11 @@
 layout: default
 title: Cases
 ---
-[Home](./) · [Cases](cases.html) · [Português](cases_pt.html) · [Español](cases_es.html) · [Fork for collaboration](https://github.com/felipelago17/brazilian-political-cases-academic/fork)
+[Home](./) · [English](cases.html) · [Português](cases_pt.html) · [Español](cases_es.html) · [Fork](https://github.com/felipelago17/brazilian-political-cases-academic/fork)
 
 # Cases
+
+**Status as of 31 October 2026**
 
 ## Lula & Family
 
@@ -32,4 +34,4 @@ title: Cases
 
 ---
 
-*Full structured data remains in [tracker.py](tracker.py).*
+*Full structured data (including history, portals and “why not linked” notes) remains in [tracker.py](tracker.py).*
