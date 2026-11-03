@@ -25,6 +25,13 @@ title: Casos
 | Tentativa de golpe (AP 2668) | Jair Bolsonaro + 7 | 1ª Turma do STF | Tentativa de golpe, abolição violenta do Estado Democrático de Direito | Cumprindo pena em prisão domiciliar humanitária; revisão pendente | [Gazeta do Povo](https://www.gazetadopovo.com.br/republica/pgr-se-manifesta-contra-revisao-criminal-de-bolsonaro/) |
 | Coação no curso do processo (AP 2782) | Eduardo Bolsonaro | 1ª Turma do STF | Usou o cargo para buscar sanções dos EUA contra autoridades brasileiras | Condenado – mandado de prisão em aberto | [Poder360](https://www.poder360.com.br/poder-justica/eduardo-bolsonaro-ja-consta-em-banco-de-mandados-de-prisao-abertos/) |
 
+## Mecanismos jurídicos (exemplos)
+
+| Mecanismo | Significado | Casos afetados |
+|-----------|-------------|----------------|
+| Incompetência | Tribunal que julgou o caso não tinha autoridade sobre ele; atos anulados | Triplex, Atibaia, Instituto Lula |
+| Suspeição | Juiz considerado parcial; decisões e provas anuladas | Triplex (estendido a Atibaia) |
+
 ---
 
 *Dados estruturados completos permanecem em [tracker.py](tracker.py).*
