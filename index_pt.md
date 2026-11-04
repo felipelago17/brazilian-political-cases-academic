@@ -33,6 +33,16 @@ Fontes limitadas à imprensa mainstream, veículos jurídicos, Agência Brasil, 
 
 **Presunção de inocência:** Alegações e investigações não são constatações de culpa. Isto não é aconselhamento jurídico.
 
+## Projetos de dados abertos relacionados
+
+Este rastreador registra **casos** (acusações, investigações, condenações). Projetos brasileiros de tecnologia cívica complementares medem **indicadores** a partir de dados governamentais abertos e servem como camada quantitativa ao lado das linhas do tempo dos casos:
+
+- [Operação Serenata de Amor](https://github.com/okfn-brasil/serenata-de-amor) (Open Knowledge Brasil, 2016–; MIT) — a *Rosie*, classificadora que atribui uma pontuação de suspeita a cada reembolso da Cota para Exercício da Atividade Parlamentar (CEAP), e o *Jarbas*, API/painel que publica os itens sinalizados para validação cidadã. O projeto está em grande parte inativo, mas o método — pontuação não supervisionada de anomalias sobre dados oficiais de reembolso, publicada junto com o recibo — é o desenho de referência para qualquer indicador de "irregularidade mensurável" aqui. Pacote complementar: [serenata-toolbox](https://github.com/okfn-brasil/serenata-toolbox).
+- [Querido Diário](https://github.com/okfn-brasil/querido-diario) (Open Knowledge Brasil; ativo) — coleta e indexa diários oficiais municipais; fonte viva para avisos de licitação e nomeações.
+- [FiscalizaJá — Dados Abertos](https://github.com/FiscalizaJa/dadosabertos) (2023–) — padroniza os dados de cotas da Câmara e do Senado em um único esquema.
+
+Indicadores dessas fontes seriam reportados separadamente das entradas de casos e nunca lidos como prova de culpa.
+
 ## Colaboração open source
 
 Este repositório está aberto a contribuições. Faça um fork, altere e abra um pull request.
