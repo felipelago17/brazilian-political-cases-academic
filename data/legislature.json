@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-11-05T06:36:39+00:00",
+  "scan_days": 30,
+  "keywords": [
+    "anistia",
+    "dosimetria",
+    "supremo tribunal federal",
+    "foro privilegiado",
+    "impeachment",
+    "lei magnitsky",
+    "sanções",
+    "improbidade",
+    "lavagem de dinheiro",
+    "corrupção",
+    "licitações",
+    "acordo de leniência",
+    "delação premiada",
+    "inelegibilidade",
+    "emendas parlamentares"
+  ],
+  "items": [
+    {
+      "chamber": "Senado",
+      "id": null,
+      "number": "/",
+      "ementa": "Oferece representação contra o Ministro do Supremo Tribunal Federal Alexandre de Moraes, com fundamento no art. 52, da Constituição Federal de 1988.",
+      "keyword": "impeachment",
+      "url": ""
+    },
+    {
+      "chamber": "Câmara",
+      "id": 2647384,
+      "number": "PL 5537/2026",
+      "ementa": "Altera o §1° do art. 2° da Lei n° 11.738, de 16 de julho de 2008, para reduzir para trinta horas semanais a jornada máxima de trabalho dos profissionais do magistério público da educação básica, revoga o art. 6° da referida Lei e altera a Lei n° 8.429, de 2 de junho de 1992, para estabelecer hipótese de ato de improbidade administrativa.",
+      "keyword": "improbidade",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2647384"
+    },
+    {
+      "chamber": "Câmara",
+      "id": 2648703,
+      "number": "PL 5645/2026",
+      "ementa": "Altera a Lei nº 8.383, de 30 de dezembro de 1991, para assegurar às instituições autorizadas a funcionar pelo Banco Central do Brasil e às demais pessoas jurídicas sujeitas a deveres legais de prevenção à lavagem de dinheiro, ao financiamento do terrorismo e à fraude o acesso isonômico, mediante convênio, às informações cadastrais não protegidas por sigilo fiscal mantidas pela Secretaria Especial da Receita Federal do Brasil.",
+      "keyword": "lavagem de dinheiro",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2648703"
+    },
+    {
+      "chamber": "Câmara",
+      "id": 2648819,
+      "number": "PL 5652/2026",
+      "ementa": "Altera a Lei nº 14.133, de 1º de abril de 2022, Lei de Licitações e Contratos Administrativos, para dispor sobre o videomonitoramento de obras e serviços públicos de engenharia e dá outras providências.",
+      "keyword": "licitações",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2648819"
+    },
+    {
+      "chamber": "Câmara",
+      "id": 2647683,
+      "number": "PL 5568/2026",
+      "ementa": "Institui a Lei Nacional de Garantia do Pagamento Médico e de Continuidade Assistencial, dispõe sobre a prevenção do inadimplemento remuneratório de médicos por pessoas jurídicas que prestem, organizem, contratem, intermedeiem ou administrem serviços médicos, estabelece mecanismos de transparência, controle contratual, retenção e pagamento direto em contratos, parcerias e ajustes com o Poder Público, altera a Lei nº 3.268, de 30 de setembro de 1957, a Lei nº 9.637, de 15 de maio de 1998, e a Lei nº 14.133, de 1º de abril de 2021, e dá outras providências.",
+      "keyword": "licitações",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2647683"
+    },
+    {
+      "chamber": "Câmara",
+      "id": 2647321,
+      "number": "PL 5533/2026",
+      "ementa": "Institui a Lei Nacional de Garantia Remuneratória, Integridade Contratual e Proteção do Trabalhador Terceirizado, estabelece mecanismos de prevenção ao atraso salarial em contratos de prestação de serviços contínuos com dedicação exclusiva de mão de obra, disciplina a retenção cautelar de pagamentos públicos, o pagamento direto de verbas trabalhistas inadimplidas, a proteção contra retaliações e a transparência de irregularidades trabalhistas em contratações públicas, e altera a Lei nº 14.133, de 1º de abril de 2021.",
+      "keyword": "licitações",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2647321"
+    },
+    {
+      "chamber": "Câmara",
+      "id": 2647318,
+      "number": "PL 5530/2026",
+      "ementa": "Institui a Lei de Combate ao Assédio Moral Institucional, estabelece medidas de prevenção, apuração, responsabilização e proteção contra retaliações nas relações de trabalho no setor público e privado, altera a Consolidação das Leis do Trabalho – CLT, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, a Lei nº 14.457, de 21 de setembro de 2022, a Lei nº 8.112, de 11 de dezembro de 1990, e a Lei nº 14.133, de 1º de abril de 2021, e dá outras providências.",
+      "keyword": "licitações",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2647318"
+    },
+    {
+      "chamber": "Câmara",
+      "id": 2648705,
+      "number": "PLP 273/2026",
+      "ementa": "Altera a Lei Complementar nº 64, de 18 de maio de 1990, para dispor sobre o abuso do poder acadêmico.",
+      "keyword": "inelegibilidade",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2648705"
+    }
+  ]
+}
