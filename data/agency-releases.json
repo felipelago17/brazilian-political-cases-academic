@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-11-05T06:37:08+00:00",
+  "sources_ok": [
+    "DOJ RSS (25)",
+    "BIS (51)",
+    "OFAC (64)"
+  ],
+  "sources_failed": [],
+  "keywords": [
+    "brazil",
+    "brazilian",
+    "magnitsky",
+    "petrobras",
+    "odebrecht",
+    "braskem",
+    "embraer",
+    "fcpa",
+    "foreign corrupt practices",
+    "extradition"
+  ],
+  "targets": [
+    {
+      "id": "ofac-moraes-designation-2025-07",
+      "label": "OFAC recent action — Global Magnitsky designation of Alexandre de Moraes (30 Jul 2025)",
+      "agency": "OFAC",
+      "title_any": [
+        "moraes",
+        "magnitsky",
+        "brazil"
+      ],
+      "resolved": null
+    },
+    {
+      "id": "ofac-moraes-delisting-2025-12",
+      "label": "OFAC recent action — removal of de Moraes and Barci de Moraes (12 Dec 2025)",
+      "agency": "OFAC",
+      "title_any": [
+        "moraes",
+        "magnitsky",
+        "brazil"
+      ],
+      "resolved": null
+    }
+  ],
+  "scan": [
+    {
+      "agency": "DOJ",
+      "title": "Daniel Sikkema Sentenced To Life In Prison For Murder-For-Hire Of His New York Art Gallerist Husband In Brazil",
+      "url": "https://www.justice.gov/usao-sdny/pr/daniel-sikkema-sentenced-life-prison-murder-hire-his-new-york-art-gallerist-husband",
+      "date": "2026-11-04",
+      "matched_keywords": [
+        "brazil"
+      ]
+    }
+  ]
+}
