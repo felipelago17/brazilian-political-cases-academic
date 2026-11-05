@@ -16,7 +16,7 @@ Registro acadêmico, com fontes classificadas por nível, de **casos judiciais, 
 
 ## Método
 
-Sinais e ações, não "influência": conexões apenas com [grau de vínculo](../methodology/linkage-grades.md). Fontes [por nível](../methodology/source-hierarchy.md); veículos de campanha excluídos. [Vocabulário controlado](../methodology/status-taxonomy.md) de fase, resultado e mecanismo. A cobertura segue o registro oficial, qualquer que seja o partido. Fonte única: `trackers/*.yaml`; o texto livre é redigido em inglês e as três versões são geradas.
+Sinais e ações, não "influência": conexões apenas com [grau de vínculo](methodology/linkage-grades.md). Fontes [por nível](methodology/source-hierarchy.md); veículos de campanha excluídos. [Vocabulário controlado](methodology/status-taxonomy.md) de fase, resultado e mecanismo. A cobertura segue o registro oficial, qualquer que seja o partido. Fonte única: `trackers/*.yaml`; as três versões são geradas a partir dela, com traduções em `trackers/translations/`.
 
 ## Licença
 

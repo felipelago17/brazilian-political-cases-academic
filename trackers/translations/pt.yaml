@@ -1,0 +1,107 @@
+# Traduções (português do Brasil) do texto livre dos trackers. Chaveado por id.
+# Campos ausentes recorrem ao inglês. Mantenha sincronizado ao editar trackers/*.yaml.
+
+cases:
+  lula-guaruja-triplex:
+    matter: Triplex do Guarujá
+    origin: Lava Jato (Curitiba)
+    forum: 13ª Vara Federal de Curitiba → TRF-4 → STF
+    allegation: Corrupção passiva e lavagem de dinheiro por meio de apartamento da OAS no litoral; o STJ fixou a reparação em R$ 2,42 milhões.
+    timeline:
+      - Condenado em primeira instância (juiz Moro)
+      - Condenação mantida e pena aumentada pelo TRF-4
+      - "STF (Fachin): incompetência da Justiça Federal de Curitiba; condenação anulada"
+      - 2ª Turma do STF declara a suspeição do juiz Moro
+      - Processo reiniciado em Brasília; arquivado por prescrição (prazo reduzido à metade por idade superior a 70 anos)
+    how_to_retrieve: Pesquise pelo número do HC no portal do STF; as decisões são públicas e podem ser baixadas na página do processo.
+    notes: Não subsiste julgamento de mérito; a condenação foi anulada por incompetência e o processo reiniciado prescreveu.
+  lula-atibaia:
+    matter: Sítio de Atibaia
+    origin: Lava Jato (Curitiba)
+    forum: 13ª Vara Federal de Curitiba → TRF-4 → STF → TRF-1
+    allegation: Corrupção passiva e lavagem de dinheiro; cerca de R$ 1 milhão em reformas pagas por empreiteiras.
+    timeline:
+      - Condenado em primeira instância
+      - Anulado pelo STF junto com os demais processos de Curitiba
+      - TRF-1 nega reabertura; prazo prescricional esgotado
+    how_to_retrieve: Mesma decisão do STF do caso do triplex; decisão do TRF-1 via consulta processual.
+  lula-instituto-land:
+    matter: Terreno do Instituto Lula
+    origin: Lava Jato (Curitiba)
+    forum: 13ª Vara Federal de Curitiba → STF
+    allegation: Propina da Odebrecht na forma de terreno para o Instituto (cerca de R$ 12 milhões).
+    timeline:
+      - Anulado com os processos de Curitiba
+      - "Encerrado pelo ministro Lewandowski: provas do acordo de leniência da Odebrecht declaradas imprestáveis"
+    how_to_retrieve: Consulta processual pelo nome da parte; decisão publicada no portal do STF.
+  lula-instituto-donations:
+    matter: Doações ao Instituto Lula
+    origin: Lava Jato (Curitiba)
+    forum: 13ª Vara Federal de Curitiba → STF
+    allegation: Doações da Odebrecht supostamente usadas como propina disfarçada (cerca de R$ 4 milhões).
+    timeline:
+      - Encerrado pela mesma decisão do ministro Lewandowski
+    how_to_retrieve: Como acima.
+  lula-obstruction-cervero:
+    matter: Obstrução de justiça (Cerveró / Delcídio)
+    origin: Lava Jato (Brasília)
+    forum: 10ª Vara Federal Criminal do Distrito Federal
+    allegation: Esquema para comprar o silêncio do ex-diretor da Petrobras Nestor Cerveró.
+    timeline:
+      - "Absolvido no mérito (juiz Ricardo Leite): provas insuficientes; o próprio Ministério Público pediu a absolvição"
+    how_to_retrieve: Consulta processual no portal do TRF-1.
+    notes: Único processo de Lula deste conjunto decidido no mérito.
+  bolsonaro-coup-ap2668:
+    matter: Trama golpista (AP 2668)
+    origin: Denúncia da PGR (2025)
+    forum: 1ª Turma do STF
+    allegation: Tentativa de golpe de Estado, abolição violenta do Estado Democrático de Direito, organização criminosa armada e crimes conexos.
+    timeline:
+      - "Condenado por 4 a 1; 27 anos e 3 meses"
+      - Prisão domiciliar humanitária concedida
+      - Pedidos de revisão criminal pendentes; PGR contrária
+    how_to_retrieve: Pesquise AP 2668 no portal do STF; julgamento e acórdão são públicos.
+    notes: Ver foreign-actions.yaml para as medidas dos EUA que cercam este julgamento e linkages.yaml para a graduação do vínculo.
+  eduardo-bolsonaro-coercion-ap2782:
+    matter: Coação no curso do processo (AP 2782)
+    origin: Denúncia da PGR (2025)
+    forum: 1ª Turma do STF
+    allegation: Uso do mandato de deputado federal para buscar sanções dos EUA contra autoridades brasileiras com o fim de influenciar processos.
+    timeline:
+      - "Condenação unânime; 4 anos e 2 meses"
+      - Trânsito em julgado
+      - Mandado de prisão expedido; réu residente nos EUA desde fev. 2025
+    how_to_retrieve: Pesquise AP 2782 no portal do STF.
+    notes: O próprio julgamento documenta a conexão entre a conduta do réu e as medidas dos EUA registradas em foreign-actions.yaml — ver linkages.yaml.
+
+foreign_actions:
+  ofac-moraes-designation-2025-07:
+    actor: Tesouro dos EUA / OFAC
+    instrument: Designação pela Lei Global Magnitsky (lista SDN)
+    target: Alexandre de Moraes (ministro do STF)
+    summary: Primeiro uso da Lei Global Magnitsky contra autoridade pública brasileira; bens sob jurisdição dos EUA bloqueados e pessoas dos EUA proibidas de negociar com ele.
+  ofac-barci-lex-designation-2025-09:
+    actor: Tesouro dos EUA / OFAC
+    instrument: Designação pela Lei Global Magnitsky (lista SDN)
+    target: Viviane Barci de Moraes e Instituto Lex
+    summary: Designação da esposa do ministro e de instituto ligado à família, onze dias após a condenação na AP 2668.
+  ofac-moraes-delisting-2025-12:
+    actor: Tesouro dos EUA / OFAC
+    instrument: Remoção da lista SDN
+    target: Alexandre de Moraes; Viviane Barci de Moraes
+    summary: Ambos removidos da lista SDN; autoridade sênior dos EUA citou coerência com os interesses de política externa americana, em meio à reaproximação Trump–Lula e à redução de tarifas.
+  us-visa-revocations-2025-07:
+    actor: Departamento de Estado dos EUA
+    instrument: Revogação de vistos
+    target: Alexandre de Moraes e outros ministros do STF e autoridades (conforme noticiado)
+    summary: Revogações de vistos anunciadas junto com as medidas tarifárias e sancionatórias; novas restrições noticiadas em setembro de 2025.
+  us-brazil-tariff-ieepa-2025-07:
+    actor: Presidente dos EUA (IEEPA)
+    instrument: Ordem Executiva 14323, *Addressing Threats to the United States by the Government of Brazil*, 90 FR 37739 — tarifa adicional de 40% sobre bens de origem brasileira (50% no total com a tarifa recíproca; bens sob a Seção 232 excluídos)
+    target: Brasil (comércio)
+    summary: A ordem citava, entre os fundamentos, o tratamento dado ao ex-presidente Bolsonaro. Invalidada como medida tarifária por Learning Resources v. Trump (20 fev. 2026), que decidiu que a IEEPA não autoriza tarifas; cobrança encerrada pela OE 14389 a partir de 24 fev. 2026.
+
+linkages:
+  - "Nenhuma inferência. A designação (30 jul. 2025) precedeu o julgamento da AP 2668 (11 set. 2025); o julgamento não a cita e o STF manteve o calendário."
+  - "O grau baseia-se nas conclusões documentadas do tribunal brasileiro sobre a conduta do réu, não em documento dos EUA. Registra que uma instituição constatou a conexão; não afirma que os EUA agiram por causa dela."
+  - "Nenhuma inferência. A remoção seguiu-se à reaproximação Trump–Lula e à redução de tarifas; não se documenta aqui se alguma ação institucional brasileira a precedeu ou sucedeu."

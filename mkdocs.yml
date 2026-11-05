@@ -37,11 +37,19 @@ nav:
       - US Agency Releases (OFAC/DOJ/BIS): trackers/agency-releases.md
   - Português:
       - Início: pt/index.md
+      - Metodologia:
+          - Hierarquia de fontes: pt/methodology/source-hierarchy.md
+          - Taxonomia de situação: pt/methodology/status-taxonomy.md
+          - Graus de vínculo: pt/methodology/linkage-grades.md
       - Casos: pt/cases.md
       - Ações estrangeiras: pt/foreign-actions.md
       - Vínculos: pt/linkages.md
   - Español:
       - Inicio: es/index.md
+      - Metodología:
+          - Jerarquía de fuentes: es/methodology/source-hierarchy.md
+          - Taxonomía de situación: es/methodology/status-taxonomy.md
+          - Grados de vínculo: es/methodology/linkage-grades.md
       - Casos: es/cases.md
       - Acciones extranjeras: es/foreign-actions.md
       - Vínculos: es/linkages.md

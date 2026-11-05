@@ -6,6 +6,7 @@ on:
       - 'trackers/cases.yaml'
       - 'trackers/foreign-actions.yaml'
       - 'trackers/linkages.yaml'
+      - 'trackers/translations/*.yaml'
       - 'scripts/build_pages.py'
   workflow_dispatch:
 

@@ -30,7 +30,7 @@ L = {
         "cases_intro": "Legal cases involving Brazilian public figures and institutions, across parties and branches. Source of truth: `trackers/cases.yaml`. Stages and outcomes use the fixed vocabulary in [Status taxonomy](methodology/status-taxonomy.md).",
         "fa_intro": "Actions by foreign governments (chiefly the United States) touching Brazilian public figures, institutions or trade. These are actions; any connection to a Brazilian decision is graded in [Linkages](linkages.md).",
         "lk_intro": "Graded connections between a signal and an action. `proximity-only` entries draw no inference. See [Linkage grades](methodology/linkage-grades.md).",
-        "yes": "yes", "no": "no", "lifted": "lifted", "tier": "T",
+        "yes": "yes", "no": "no", "lifted": "lifted", "unknown": "unknown", "tier": "T",
         "stage_v": {"inquérito": "inquiry", "denúncia": "charged", "denúncia-recebida": "charges accepted", "instrução": "trial phase", "sentença": "judgment", "recurso": "appeal", "trânsito-em-julgado": "final", "encerrado": "closed"},
         "outcome_v": {"pendente": "pending", "condenação": "conviction", "absolvição": "acquittal", "anulação": "annulment", "prescrição": "time-barred", "arquivamento": "archived", "rejeição-da-denúncia": "charges rejected"},
     },
@@ -42,11 +42,12 @@ L = {
         "timeline": "Cronologia", "official": "Registro oficial", "how": "Como obter", "reference": "Referência", "notes": "Notas",
         "date": "Data", "actor": "Autor", "instrument": "Instrumento", "target": "Alvo", "summary": "Resumo", "in_force": "Em vigor",
         "signal": "Sinal", "action": "Ação", "grade": "Grau", "evidence": "Evidência",
-        "cases_intro": "Casos judiciais envolvendo figuras públicas e instituições brasileiras, de todos os partidos e poderes. Fonte: `trackers/cases.yaml`. Fases e resultados seguem o vocabulário fixo da [taxonomia de situação](../methodology/status-taxonomy.md). Texto livre em inglês.",
+        "cases_intro": "Casos judiciais envolvendo figuras públicas e instituições brasileiras, de todos os partidos e poderes. Fonte: `trackers/cases.yaml`. Fases e resultados seguem o vocabulário fixo da [taxonomia de situação](methodology/status-taxonomy.md). ",
         "fa_intro": "Ações de governos estrangeiros (sobretudo dos EUA) que afetam figuras públicas, instituições ou o comércio do Brasil. São ações; qualquer conexão com decisão brasileira é graduada em [Vínculos](linkages.md).",
-        "lk_intro": "Conexões graduadas entre um sinal e uma ação. Entradas `proximity-only` não implicam inferência. Ver [graus de vínculo](../methodology/linkage-grades.md).",
-        "yes": "sim", "no": "não", "lifted": "revogada", "tier": "N",
-        "stage_v": {}, "outcome_v": {},
+        "lk_intro": "Conexões graduadas entre um sinal e uma ação. Entradas `proximity-only` não implicam inferência. Ver [graus de vínculo](methodology/linkage-grades.md).",
+        "yes": "sim", "no": "não", "lifted": "revogada em", "unknown": "não confirmado", "tier": "N",
+        "stage_v": {"inquérito": "inquérito", "denúncia": "denúncia oferecida", "denúncia-recebida": "denúncia recebida", "instrução": "instrução", "sentença": "sentença", "recurso": "recurso", "trânsito-em-julgado": "trânsito em julgado", "encerrado": "encerrado"},
+        "outcome_v": {"pendente": "pendente", "condenação": "condenação", "absolvição": "absolvição", "anulação": "anulação", "prescrição": "prescrição", "arquivamento": "arquivamento", "rejeição-da-denúncia": "denúncia rejeitada"},
     },
     "es": {
         "cases_title": "Casos", "fa_title": "Acciones extranjeras", "lk_title": "Vínculos",
@@ -56,10 +57,10 @@ L = {
         "timeline": "Cronología", "official": "Registro oficial", "how": "Cómo obtenerlo", "reference": "Referencia", "notes": "Notas",
         "date": "Fecha", "actor": "Autor", "instrument": "Instrumento", "target": "Objetivo", "summary": "Resumen", "in_force": "Vigente",
         "signal": "Señal", "action": "Acción", "grade": "Grado", "evidence": "Evidencia",
-        "cases_intro": "Casos judiciales que involucran a figuras públicas e instituciones brasileñas, de todos los partidos y poderes. Fuente: `trackers/cases.yaml`. Etapas y resultados siguen el vocabulario fijo de la [taxonomía de situación](../methodology/status-taxonomy.md). Texto libre en inglés.",
+        "cases_intro": "Casos judiciales que involucran a figuras públicas e instituciones brasileñas, de todos los partidos y poderes. Fuente: `trackers/cases.yaml`. Etapas y resultados siguen el vocabulario fijo de la [taxonomía de situación](methodology/status-taxonomy.md). ",
         "fa_intro": "Acciones de gobiernos extranjeros (principalmente EE. UU.) que afectan a figuras públicas, instituciones o el comercio de Brasil. Son acciones; cualquier conexión con una decisión brasileña se gradúa en [Vínculos](linkages.md).",
-        "lk_intro": "Conexiones graduadas entre una señal y una acción. Las entradas `proximity-only` no implican inferencia. Ver [grados de vínculo](../methodology/linkage-grades.md).",
-        "yes": "sí", "no": "no", "lifted": "levantada", "tier": "N",
+        "lk_intro": "Conexiones graduadas entre una señal y una acción. Las entradas `proximity-only` no implican inferencia. Ver [grados de vínculo](methodology/linkage-grades.md).",
+        "yes": "sí", "no": "no", "lifted": "levantada el", "unknown": "no confirmado", "tier": "N",
         "stage_v": {"inquérito": "investigación", "denúncia": "acusación", "denúncia-recebida": "acusación admitida", "instrução": "instrucción", "sentença": "sentencia", "recurso": "recurso", "trânsito-em-julgado": "firme", "encerrado": "cerrado"},
         "outcome_v": {"pendente": "pendiente", "condenação": "condena", "absolvição": "absolución", "anulação": "anulación", "prescrição": "prescrito", "arquivamento": "archivado", "rejeição-da-denúncia": "acusación rechazada"},
     },
@@ -68,6 +69,31 @@ L = {
 
 def _load(name: str):
     return yaml.safe_load((TR / name).read_text(encoding="utf-8"))
+
+
+def _tr(lang: str) -> dict:
+    """Translation overlay for free text (trackers/translations/<lang>.yaml); English has none."""
+    f = TR / "translations" / f"{lang}.yaml"
+    return yaml.safe_load(f.read_text(encoding="utf-8")) if f.exists() else {}
+
+
+def _overlay(item: dict, tr: dict | None) -> dict:
+    """Return a copy of item with translated free-text fields where the overlay provides them."""
+    if not tr:
+        return item
+    out = dict(item)
+    for k in ("matter", "origin", "forum", "allegation", "notes", "actor", "instrument", "target", "summary"):
+        if tr.get(k):
+            out[k] = tr[k]
+    if tr.get("timeline") and item.get("timeline"):
+        tl = []
+        for i, x in enumerate(item["timeline"]):
+            ev = tr["timeline"][i] if i < len(tr["timeline"]) else x.get("event", "")
+            tl.append({**x, "event": ev})
+        out["timeline"] = tl
+    if tr.get("how_to_retrieve") and item.get("official"):
+        out["official"] = {**item["official"], "how_to_retrieve": tr["how_to_retrieve"]}
+    return out
 
 
 def _src(sources: list[dict], t: dict) -> str:
@@ -79,7 +105,8 @@ def _v(t: dict, key: str, val: str) -> str:
 
 
 def cases_page(lang: str, t: dict, today: str) -> str:
-    cases = _load("cases.yaml")
+    trs = (_tr(lang).get("cases") or {})
+    cases = [_overlay(c, trs.get(c["id"])) for c in _load("cases.yaml")]
     out = [f"# {t['cases_title']}", "", f"**{t['status']} {today}**", "", t["presumption"], "", t["cases_intro"], "",
            f"| {t['matter']} | {t['persons']} | {t['affiliation']} | {t['stage']} | {t['outcome']} |",
            "|---|---|---|---|---|"]
@@ -105,12 +132,13 @@ def cases_page(lang: str, t: dict, today: str) -> str:
 
 
 def foreign_page(lang: str, t: dict, today: str) -> str:
-    rows = _load("foreign-actions.yaml")
+    trs = (_tr(lang).get("foreign_actions") or {})
+    rows = [_overlay(r, trs.get(r["id"])) for r in _load("foreign-actions.yaml")]
     out = [f"# {t['fa_title']}", "", f"**{t['status']} {today}**", "", t["fa_intro"], "",
            f"| {t['date']} | {t['actor']} | {t['target']} | {t['in_force']} |", "|---|---|---|---|"]
     def _inf(r):
         st = r.get("status") or {}
-        return t["lifted"] + f" {st.get('lifted')}" if st.get("lifted") else (t["yes"] if st.get("in_force") is True else t["no"] if st.get("in_force") is False else str(st.get("in_force", "")))
+        return t["lifted"] + f" {st.get('lifted')}" if st.get("lifted") else (t["yes"] if st.get("in_force") is True else t["no"] if st.get("in_force") is False else t["unknown"])
     for r in rows:
         out.append(f"| {r.get('date','')} | [{r.get('actor','')}](#{r['id']}) | {r.get('target','')} | {_inf(r)} |")
     out.append("")
@@ -124,6 +152,8 @@ def foreign_page(lang: str, t: dict, today: str) -> str:
 
 def linkages_page(lang: str, t: dict, today: str) -> str:
     rows = _load("linkages.yaml")
+    notes_tr = _tr(lang).get("linkages") or []
+    rows = [{**r, "notes": (notes_tr[i] if i < len(notes_tr) else r.get("notes", ""))} for i, r in enumerate(rows)]
     out = [f"# {t['lk_title']}", "", f"**{t['status']} {today}**", "", t["lk_intro"], "",
            f"| {t['signal']} | {t['action']} | {t['grade']} | {t['evidence']} | {t['notes']} |", "|---|---|---|---|---|"]
     for r in rows:
@@ -132,9 +162,22 @@ def linkages_page(lang: str, t: dict, today: str) -> str:
     return "\n".join(out) + "\n"
 
 
+MONTHS = {
+    "pt": ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"],
+    "es": ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"],
+}
+
+
+def _today(lang: str) -> str:
+    d = date.today()
+    if lang in MONTHS:
+        return f"{d.day} de {MONTHS[lang][d.month-1]} de {d.year}"
+    return d.strftime("%-d %B %Y")
+
+
 def main() -> int:
-    today = date.today().strftime("%-d %B %Y")
     for lang, t in L.items():
+        today = _today(lang)
         base = DOCS if lang == "en" else DOCS / lang
         base.mkdir(parents=True, exist_ok=True)
         (base / "cases.md").write_text(cases_page(lang, t, today), encoding="utf-8")
