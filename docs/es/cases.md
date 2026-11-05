@@ -6,17 +6,21 @@
 
 Casos judiciales que involucran a figuras públicas e instituciones brasileñas, de todos los partidos y poderes. Fuente: `trackers/cases.yaml`. Etapas y resultados siguen el vocabulario fijo de la [taxonomía de situación](../methodology/status-taxonomy.md). Texto libre en inglés.
 
-| Caso | Personas | Afiliación | Origen | Foro | Etapa | Resultado | Mecanismos | Fuentes |
-|---|---|---|---|---|---|---|---|---|
-| [Guarujá triplex](#lula-guaruja-triplex) | Luiz Inácio Lula da Silva | PT | Lava Jato (Curitiba) | 13th Federal Court of Curitiba → TRF-4 → STF | cerrado | archivado | incompetência, suspeição, prescrição | [Gazeta SP](https://gazetasp.com.br/politica/lula-x-flavio-bolsonaro-e-seus-processos-na-justica-dois-candidatos-a-presidencia-zero-julgamento-de-merito) (N3)<br>[BBC Brasil via O Povo](https://www.opovo.com.br/agencia/bbc/2026/10/22/lulinha-luchsinger-e-lava-jato-o-que-realmente-pesa-contra-lula.html) (N3) |
-| [Atibaia country house](#lula-atibaia) | Luiz Inácio Lula da Silva | PT | Lava Jato (Curitiba) | 13th Federal Court of Curitiba → TRF-4 → STF → TRF-1 | cerrado | archivado | incompetência, suspeição, prescrição | [Gazeta SP](https://gazetasp.com.br/politica/lula-x-flavio-bolsonaro-e-seus-processos-na-justica-dois-candidatos-a-presidencia-zero-julgamento-de-merito) (N3)<br>[BBC Brasil via O Povo](https://www.opovo.com.br/agencia/bbc/2026/10/22/lulinha-luchsinger-e-lava-jato-o-que-realmente-pesa-contra-lula.html) (N3) |
-| [Instituto Lula land](#lula-instituto-land) | Luiz Inácio Lula da Silva | PT | Lava Jato (Curitiba) | 13th Federal Court of Curitiba → STF | cerrado | archivado | incompetência, nulidade-probatória | [Gazeta SP](https://gazetasp.com.br/politica/lula-x-flavio-bolsonaro-e-seus-processos-na-justica-dois-candidatos-a-presidencia-zero-julgamento-de-merito) (N3) |
-| [Instituto Lula donations](#lula-instituto-donations) | Luiz Inácio Lula da Silva | PT | Lava Jato (Curitiba) | 13th Federal Court of Curitiba → STF | cerrado | archivado | incompetência, nulidade-probatória | [Gazeta SP](https://gazetasp.com.br/politica/lula-x-flavio-bolsonaro-e-seus-processos-na-justica-dois-candidatos-a-presidencia-zero-julgamento-de-merito) (N3) |
-| [Obstruction of justice (Cerveró / Delcídio)](#lula-obstruction-cervero) | Luiz Inácio Lula da Silva, six co-defendants | PT | Lava Jato (Brasília) | 10th Federal Criminal Court of the Federal District | cerrado | absolución |  | [Migalhas](https://www.migalhas.com.br/quentes/283634/justica-absolve-envolvidos-no-caso-cervero) (N3) |
-| [Coup plot (AP 2668)](#bolsonaro-coup-ap2668) | Jair Bolsonaro, seven co-defendants | PL | PGR denúncia (2025) | STF First Panel | firme | condena | revisão-criminal | [Gazeta do Povo](https://www.gazetadopovo.com.br/republica/pgr-se-manifesta-contra-revisao-criminal-de-bolsonaro/) (N3)<br>[Conjur](https://conjur.com.br/2026-out-02/defesa-cita-novos-fatos-e-pede-revisao-da-condenacao-de-bolsonaro/) (N3) |
-| [Coercion in the course of proceedings (AP 2782)](#eduardo-bolsonaro-coercion-ap2782) | Eduardo Bolsonaro | PL | PGR denúncia (2025) | STF First Panel | firme | condena |  | [Agência Brasil](https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/moraes-determina-emissao-de-mandado-de-prisao-contra-eduardo-bolsonaro) (N2)<br>[Poder360](https://www.poder360.com.br/poder-justica/eduardo-bolsonaro-ja-consta-em-banco-de-mandados-de-prisao-abertos/) (N3) |
+| Caso | Personas | Afiliación | Etapa | Resultado |
+|---|---|---|---|---|
+| [Guarujá triplex](#lula-guaruja-triplex) | Luiz Inácio Lula da Silva | PT | cerrado | archivado |
+| [Atibaia country house](#lula-atibaia) | Luiz Inácio Lula da Silva | PT | cerrado | archivado |
+| [Instituto Lula land](#lula-instituto-land) | Luiz Inácio Lula da Silva | PT | cerrado | archivado |
+| [Instituto Lula donations](#lula-instituto-donations) | Luiz Inácio Lula da Silva | PT | cerrado | archivado |
+| [Obstruction of justice (Cerveró / Delcídio)](#lula-obstruction-cervero) | Luiz Inácio Lula da Silva, six co-defendants | PT | cerrado | absolución |
+| [Coup plot (AP 2668)](#bolsonaro-coup-ap2668) | Jair Bolsonaro, seven co-defendants | PL | firme | condena |
+| [Coercion in the course of proceedings (AP 2782)](#eduardo-bolsonaro-coercion-ap2782) | Eduardo Bolsonaro | PL | firme | condena |
 
 ## Guarujá triplex {#lula-guaruja-triplex}
+
+**Personas:** Luiz Inácio Lula da Silva (PT) · **Origen:** Lava Jato (Curitiba) · **Foro:** 13th Federal Court of Curitiba → TRF-4 → STF
+
+**Etapa / Resultado:** cerrado / archivado · **Mecanismos:** incompetência, suspeição, prescrição
 
 **Acusación.** Bribery and money laundering via an OAS beach apartment; STJ fixed reparation at R$2.42m.
 
@@ -32,7 +36,13 @@ Casos judiciales que involucran a figuras públicas e instituciones brasileñas,
 
 **Notas.** No merits judgment survives; the conviction was annulled on jurisdiction and the restarted case expired.
 
+**Fuentes.** [Gazeta SP](https://gazetasp.com.br/politica/lula-x-flavio-bolsonaro-e-seus-processos-na-justica-dois-candidatos-a-presidencia-zero-julgamento-de-merito) (N3) · [BBC Brasil via O Povo](https://www.opovo.com.br/agencia/bbc/2026/10/22/lulinha-luchsinger-e-lava-jato-o-que-realmente-pesa-contra-lula.html) (N3)
+
 ## Atibaia country house {#lula-atibaia}
+
+**Personas:** Luiz Inácio Lula da Silva (PT) · **Origen:** Lava Jato (Curitiba) · **Foro:** 13th Federal Court of Curitiba → TRF-4 → STF → TRF-1
+
+**Etapa / Resultado:** cerrado / archivado · **Mecanismos:** incompetência, suspeição, prescrição
 
 **Acusación.** Bribery and money laundering; c. R$1m of refurbishments paid by construction firms.
 
@@ -44,7 +54,13 @@ Casos judiciales que involucran a figuras públicas e instituciones brasileñas,
 
 **Registro oficial.** HC 193726 — [portal](https://portal.stf.jus.br/processos/). Cómo obtenerlo: Same STF decision as the triplex case; TRF-1 decision via consulta processual.
 
+**Fuentes.** [Gazeta SP](https://gazetasp.com.br/politica/lula-x-flavio-bolsonaro-e-seus-processos-na-justica-dois-candidatos-a-presidencia-zero-julgamento-de-merito) (N3) · [BBC Brasil via O Povo](https://www.opovo.com.br/agencia/bbc/2026/10/22/lulinha-luchsinger-e-lava-jato-o-que-realmente-pesa-contra-lula.html) (N3)
+
 ## Instituto Lula land {#lula-instituto-land}
+
+**Personas:** Luiz Inácio Lula da Silva (PT) · **Origen:** Lava Jato (Curitiba) · **Foro:** 13th Federal Court of Curitiba → STF
+
+**Etapa / Resultado:** cerrado / archivado · **Mecanismos:** incompetência, nulidade-probatória
 
 **Acusación.** Odebrecht bribe in the form of land for the Institute (c. R$12m).
 
@@ -55,7 +71,13 @@ Casos judiciales que involucran a figuras públicas e instituciones brasileñas,
 
 **Registro oficial.** Lewandowski decision of 17 Feb 2023 — [portal](https://portal.stf.jus.br/processos/). Cómo obtenerlo: Consulta processual by party name; decision published on the STF portal.
 
+**Fuentes.** [Gazeta SP](https://gazetasp.com.br/politica/lula-x-flavio-bolsonaro-e-seus-processos-na-justica-dois-candidatos-a-presidencia-zero-julgamento-de-merito) (N3)
+
 ## Instituto Lula donations {#lula-instituto-donations}
+
+**Personas:** Luiz Inácio Lula da Silva (PT) · **Origen:** Lava Jato (Curitiba) · **Foro:** 13th Federal Court of Curitiba → STF
+
+**Etapa / Resultado:** cerrado / archivado · **Mecanismos:** incompetência, nulidade-probatória
 
 **Acusación.** Odebrecht donations alleged to be disguised bribes (c. R$4m).
 
@@ -65,7 +87,13 @@ Casos judiciales que involucran a figuras públicas e instituciones brasileñas,
 
 **Registro oficial.** Lewandowski decision of 17 Feb 2023 — [portal](https://portal.stf.jus.br/processos/). Cómo obtenerlo: As above.
 
+**Fuentes.** [Gazeta SP](https://gazetasp.com.br/politica/lula-x-flavio-bolsonaro-e-seus-processos-na-justica-dois-candidatos-a-presidencia-zero-julgamento-de-merito) (N3)
+
 ## Obstruction of justice (Cerveró / Delcídio) {#lula-obstruction-cervero}
+
+**Personas:** Luiz Inácio Lula da Silva, six co-defendants (PT) · **Origen:** Lava Jato (Brasília) · **Foro:** 10th Federal Criminal Court of the Federal District
+
+**Etapa / Resultado:** cerrado / absolución
 
 **Acusación.** Scheme to buy the silence of former Petrobras director Nestor Cerveró.
 
@@ -77,7 +105,13 @@ Casos judiciales que involucran a figuras públicas e instituciones brasileñas,
 
 **Notas.** The only Lula case in this set decided on the merits.
 
+**Fuentes.** [Migalhas](https://www.migalhas.com.br/quentes/283634/justica-absolve-envolvidos-no-caso-cervero) (N3)
+
 ## Coup plot (AP 2668) {#bolsonaro-coup-ap2668}
+
+**Personas:** Jair Bolsonaro, seven co-defendants (PL) · **Origen:** PGR denúncia (2025) · **Foro:** STF First Panel
+
+**Etapa / Resultado:** firme / condena · **Mecanismos:** revisão-criminal
 
 **Acusación.** Attempted coup d'état, violent abolition of the democratic rule of law, armed criminal organisation, and related counts.
 
@@ -91,7 +125,13 @@ Casos judiciales que involucran a figuras públicas e instituciones brasileñas,
 
 **Notas.** See foreign-actions.yaml for the US measures that bracket this judgment, and linkages.yaml for how they are graded.
 
+**Fuentes.** [Gazeta do Povo](https://www.gazetadopovo.com.br/republica/pgr-se-manifesta-contra-revisao-criminal-de-bolsonaro/) (N3) · [Conjur](https://conjur.com.br/2026-out-02/defesa-cita-novos-fatos-e-pede-revisao-da-condenacao-de-bolsonaro/) (N3)
+
 ## Coercion in the course of proceedings (AP 2782) {#eduardo-bolsonaro-coercion-ap2782}
+
+**Personas:** Eduardo Bolsonaro (PL) · **Origen:** PGR denúncia (2025) · **Foro:** STF First Panel
+
+**Etapa / Resultado:** firme / condena
 
 **Acusación.** Used his office as federal deputy to seek US sanctions against Brazilian authorities in order to influence proceedings.
 
@@ -104,3 +144,5 @@ Casos judiciales que involucran a figuras públicas e instituciones brasileñas,
 **Registro oficial.** AP 2782 — [portal](https://portal.stf.jus.br/processos/). Cómo obtenerlo: Search AP 2782 on the STF portal.
 
 **Notas.** The judgment itself documents the connection between the defendant's conduct and the US measures recorded in foreign-actions.yaml — see linkages.yaml.
+
+**Fuentes.** [Agência Brasil](https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/moraes-determina-emissao-de-mandado-de-prisao-contra-eduardo-bolsonaro) (N2) · [Poder360](https://www.poder360.com.br/poder-justica/eduardo-bolsonaro-ja-consta-em-banco-de-mandados-de-prisao-abertos/) (N3)

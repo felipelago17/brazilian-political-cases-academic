@@ -8,16 +8,14 @@ An academic, source-tiered record of **legal cases, institutional actions, legis
 
 ## What is tracked
 
-| Tracker | Content | Status |
-|---|---|---|
-| [Cases](cases.md) | Criminal, civil and electoral cases against public figures | Live — 7 matters, migrating from the original list |
-| [Foreign actions](foreign-actions.md) | US and other foreign measures: OFAC designations and delistings, visa actions, tariffs, FCPA resolutions | Live — Magnitsky lifecycle and the 2025 tariff |
-| [Linkages](linkages.md) | Graded signal → action connections | Live |
-| [Legislative signals](trackers/legislature.md) | Bills, PECs, CPIs, impeachment requests — Câmara and Senado open data | Automated daily (candidates); curated rows by PR |
-| Institutional actions | TCU, CGU sanction lists, CADE, leniency agreements | Phase 3 |
-| Elections 2026 | TSE rulings, ineligibilities, candidacies | Phase 4 |
-| Indicators | Open-data anomaly layers (Serenata, Querido Diário) | Phase 4 — reported separately, never as evidence |
-| [US presidential documents](trackers/presidential-documents.md) · [US agency releases](trackers/agency-releases.md) | Federal Register, OFAC, DOJ, BIS — Brazil-filtered | Automated daily |
+- **[Cases](cases.md)** — criminal, civil and electoral cases against public figures. Live: 7 matters, migrating from the original list.
+- **[Foreign actions](foreign-actions.md)** — US and other foreign measures: OFAC designations and delistings, visa actions, tariffs, FCPA resolutions. Live: the Magnitsky lifecycle and the 2025 tariff.
+- **[Linkages](linkages.md)** — graded signal → action connections. Live.
+- **[Legislative signals](trackers/legislature.md)** — bills, PECs, CPIs, impeachment requests from Câmara and Senado open data. Automated daily (candidates); curated rows by pull request.
+- **Institutional actions** — TCU, CGU sanction lists, CADE, leniency agreements. Phase 3.
+- **Elections 2026** — TSE rulings, ineligibilities, candidacies. Phase 4.
+- **Indicators** — open-data anomaly layers (Serenata, Querido Diário). Phase 4; reported separately, never as evidence.
+- **[US presidential documents](trackers/presidential-documents.md)** · **[US agency releases](trackers/agency-releases.md)** — Federal Register, OFAC, DOJ, BIS, Brazil-filtered. Automated daily.
 
 ## Method
 

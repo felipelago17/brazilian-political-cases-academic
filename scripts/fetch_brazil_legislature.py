@@ -76,7 +76,8 @@ def senado(keyword: str) -> list[dict]:
         cod = ident.get("CodigoMateria") or m.get("CodigoMateria")
         out.append({
             "chamber": "Senado", "id": cod,
-            "number": f"{ident.get('SiglaSubtipoMateria', '')} {ident.get('NumeroMateria', '')}/{ident.get('AnoMateria', '')}".strip(),
+            "number": (f"{ident.get('SiglaSubtipoMateria', '')} {ident.get('NumeroMateria', '')}/{ident.get('AnoMateria', '')}".strip()
+                       if ident.get('NumeroMateria') else (m.get('DescricaoIdentificacaoMateria') or "—")),
             "ementa": m.get("Ementa") or (m.get("DadosBasicosMateria") or {}).get("EmentaMateria"), "keyword": keyword,
             "url": f"https://www25.senado.leg.br/web/atividade/materias/-/materia/{cod}" if cod else "",
         })

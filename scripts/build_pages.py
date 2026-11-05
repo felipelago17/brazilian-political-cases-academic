@@ -81,14 +81,18 @@ def _v(t: dict, key: str, val: str) -> str:
 def cases_page(lang: str, t: dict, today: str) -> str:
     cases = _load("cases.yaml")
     out = [f"# {t['cases_title']}", "", f"**{t['status']} {today}**", "", t["presumption"], "", t["cases_intro"], "",
-           f"| {t['matter']} | {t['persons']} | {t['affiliation']} | {t['origin']} | {t['forum']} | {t['stage']} | {t['outcome']} | {t['mechanisms']} | {t['sources']} |",
-           "|---|---|---|---|---|---|---|---|---|"]
+           f"| {t['matter']} | {t['persons']} | {t['affiliation']} | {t['stage']} | {t['outcome']} |",
+           "|---|---|---|---|---|"]
     for c in cases:
-        out.append(f"| [{c['matter']}](#{c['id']}) | {', '.join(c.get('persons', []))} | {c.get('affiliation','')} | {c.get('origin','')} | {c.get('forum','')} | "
-                   f"{_v(t,'stage_v',c.get('stage',''))} | {_v(t,'outcome_v',c.get('outcome',''))} | {', '.join(c.get('mechanisms', []))} | {_src(c.get('sources'), t)} |")
+        out.append(f"| [{c['matter']}](#{c['id']}) | {', '.join(c.get('persons', []))} | {c.get('affiliation','')} | "
+                   f"{_v(t,'stage_v',c.get('stage',''))} | {_v(t,'outcome_v',c.get('outcome',''))} |")
     out.append("")
     for c in cases:
-        out += [f"## {c['matter']} {{#{c['id']}}}", "", f"**{t['allegation']}.** {c.get('allegation','')}", ""]
+        out += [f"## {c['matter']} {{#{c['id']}}}", "",
+                f"**{t['persons']}:** {', '.join(c.get('persons', []))} ({c.get('affiliation','')}) · **{t['origin']}:** {c.get('origin','')} · **{t['forum']}:** {c.get('forum','')}", "",
+                f"**{t['stage']} / {t['outcome']}:** {_v(t,'stage_v',c.get('stage',''))} / {_v(t,'outcome_v',c.get('outcome',''))}"
+                + (f" · **{t['mechanisms']}:** {', '.join(c.get('mechanisms', []))}" if c.get('mechanisms') else ""), "",
+                f"**{t['allegation']}.** {c.get('allegation','')}", ""]
         if c.get("timeline"):
             out += [f"**{t['timeline']}.**", ""] + [f"- {x.get('date','')} — {x.get('event','')}" for x in c["timeline"]] + [""]
         o = c.get("official") or {}
@@ -96,18 +100,26 @@ def cases_page(lang: str, t: dict, today: str) -> str:
         out += [f"**{t['official']}.** {link}. {t['how']}: {o.get('how_to_retrieve','')}", ""]
         if c.get("notes"):
             out += [f"**{t['notes']}.** {c['notes']}", ""]
+        out += [f"**{t['sources']}.** " + " · ".join(f"[{x.get('outlet','source')}]({x['url']}) ({t['tier']}{x.get('tier','?')})" for x in c.get('sources') or []), ""]
     return "\n".join(out)
 
 
 def foreign_page(lang: str, t: dict, today: str) -> str:
     rows = _load("foreign-actions.yaml")
     out = [f"# {t['fa_title']}", "", f"**{t['status']} {today}**", "", t["fa_intro"], "",
-           f"| {t['date']} | {t['actor']} | {t['instrument']} | {t['target']} | {t['in_force']} | {t['summary']} | {t['sources']} |", "|---|---|---|---|---|---|---|"]
-    for r in rows:
+           f"| {t['date']} | {t['actor']} | {t['target']} | {t['in_force']} |", "|---|---|---|---|"]
+    def _inf(r):
         st = r.get("status") or {}
-        inf = t["lifted"] + f" {st.get('lifted')}" if st.get("lifted") else (t["yes"] if st.get("in_force") is True else t["no"] if st.get("in_force") is False else str(st.get("in_force", "")))
-        out.append(f"| {r.get('date','')} | {r.get('actor','')} | {r.get('instrument','')} | {r.get('target','')} | {inf} | {r.get('summary','')} | {_src(r.get('sources'), t)} |")
-    return "\n".join(out) + "\n"
+        return t["lifted"] + f" {st.get('lifted')}" if st.get("lifted") else (t["yes"] if st.get("in_force") is True else t["no"] if st.get("in_force") is False else str(st.get("in_force", "")))
+    for r in rows:
+        out.append(f"| {r.get('date','')} | [{r.get('actor','')}](#{r['id']}) | {r.get('target','')} | {_inf(r)} |")
+    out.append("")
+    for r in rows:
+        out += [f"## {r.get('date','')} — {r.get('actor','')} {{#{r['id']}}}", "",
+                f"**{t['instrument']}:** {r.get('instrument','')}", "", f"**{t['target']}:** {r.get('target','')} · **{t['in_force']}:** {_inf(r)}", "",
+                f"{r.get('summary','')}", "",
+                f"**{t['sources']}.** " + " · ".join(f"[{x.get('outlet','source')}]({x['url']}) ({t['tier']}{x.get('tier','?')})" for x in r.get('sources') or []), ""]
+    return "\n".join(out)
 
 
 def linkages_page(lang: str, t: dict, today: str) -> str:

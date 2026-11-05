@@ -8,8 +8,20 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.top
     - search.suggest
     - content.code.copy
+  palette:
+    - scheme: default
+      primary: teal
+      toggle:
+        icon: material/brightness-7
+        name: Dark mode
+    - scheme: slate
+      primary: teal
+      toggle:
+        icon: material/brightness-4
+        name: Light mode
 nav:
   - Home: index.md
   - Methodology:
