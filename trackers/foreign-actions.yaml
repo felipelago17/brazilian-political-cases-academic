@@ -50,11 +50,11 @@
 - id: us-brazil-tariff-ieepa-2025-07
   date: 2025-07-30
   actor: US President (IEEPA)
-  instrument: Executive order imposing an additional 40 percent duty on Brazil-origin goods (50 percent total with the reciprocal tariff; Section 232 goods excluded)
+  instrument: Executive Order 14323, *Addressing Threats to the United States by the Government of Brazil*, 90 FR 37739 — additional 40 percent duty on Brazil-origin goods (50 percent total with the reciprocal tariff; Section 232 goods excluded)
   target: Brazil (trade)
   summary: The order's stated grounds included the treatment of former President Bolsonaro. Invalidated as a tariff measure by Learning Resources v. Trump (20 Feb 2026), which held IEEPA does not authorise tariffs; IEEPA duties ended by EO 14389 effective 24 Feb 2026.
   status: {announced: 2025-07-09, published: 2025-07-30, in_force: false, lifted: 2026-02-24}
   sources:
-    - {tier: 1, outlet: Federal Register, url: "https://www.federalregister.gov/", note: "EO of 30 Jul 2025 — resolve via presidential-documents targets"}
+    - {tier: 1, outlet: Federal Register, url: "https://www.federalregister.gov/documents/2025/08/05/2025-14896/addressing-threats-to-the-united-states-by-the-government-of-brazil", note: "EO 14323, signed 30 Jul 2025, published 5 Aug 2025"}
     - {tier: 1, outlet: Supreme Court, url: "https://supreme.justia.com/cases/federal/us/607/24-1287/", note: "Learning Resources, Inc. v. Trump"}
     - {tier: 3, outlet: Mondaq / Barnes & Thornburg, url: "https://www.mondaq.com/unitedstates/export-controls-trade-investment-sanctions/1662270/us-sanctions-brazilian-supreme-court-justice-places-50-tariff-on-brazilian-imports"}
