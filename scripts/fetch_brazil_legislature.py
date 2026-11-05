@@ -27,7 +27,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "trackers" / "legislative-signals.yaml"
 DATA_OUT = ROOT / "data" / "legislature.json"
 PAGE_OUT = ROOT / "docs" / "trackers" / "legislature.md"
-TIMEOUT = 30
+TIMEOUT = 75
 UA = {"User-Agent": "brazil-accountability-tracker/1.0", "Accept": "application/json"}
 CAMARA = "https://dadosabertos.camara.leg.br/api/v2/proposicoes"
 SENADO = "https://legis.senado.leg.br/dadosabertos/materia/pesquisa/lista"
@@ -44,6 +44,10 @@ def _get(url: str) -> dict:
             if exc.code in (429, 503) and attempt < 2:
                 time.sleep(5 * (attempt + 1)); continue
             raise RuntimeError(f"HTTP {exc.code} {url}") from None
+        except (urllib.error.URLError, TimeoutError, OSError) as exc:
+            if attempt < 2:
+                time.sleep(5); continue
+            raise RuntimeError(f"{type(exc).__name__}: {exc}") from None
     return {}
 
 
