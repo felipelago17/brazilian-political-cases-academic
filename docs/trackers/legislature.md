@@ -1,6 +1,6 @@
 # Legislative signals (Câmara / Senado open data)
 
-*Auto-generated 2026-11-05 06:59 UTC from the Câmara dos Deputados and Senado Federal open-data APIs. Candidate items only — curated rows live in `trackers/legislative-signals.yaml`. Not legal advice.*
+*Auto-generated 2026-11-05 16:08 UTC from the Câmara dos Deputados and Senado Federal open-data APIs. Candidate items only — curated rows live in `trackers/legislative-signals.yaml`. Not legal advice.*
 
 Keywords: `anistia`, `dosimetria`, `supremo tribunal federal`, `foro privilegiado`, `impeachment`, `lei magnitsky`, `sanções`, `improbidade`, `lavagem de dinheiro`, `corrupção`, `licitações`, `acordo de leniência`, `delação premiada`, `inelegibilidade`, `emendas parlamentares` · Câmara window: proposições presented in the last 30 days · Senado: matérias em tramitação
 
