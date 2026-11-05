@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T06:39:11+00:00",
+  "generated_at": "2026-11-05T06:59:10+00:00",
   "scan_days": 30,
   "keywords": [
     "anistia",
@@ -22,7 +22,7 @@
     {
       "chamber": "Senado",
       "id": null,
-      "number": "/",
+      "number": "—",
       "ementa": "Dispõe sobre a concessão de anistia a pessoas processadas ou condenadas por participação em manifestações de caráter político relacionadas aos eventos do dia 8 de janeiro de 2023.",
       "keyword": "anistia",
       "url": ""
