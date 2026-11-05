@@ -1,0 +1,6 @@
+# Institutional actions — TCU acórdãos, CGU sanctions (CEIS/CNEP/CEPIM), CADE decisions,
+# leniency agreements (CGU/AGU/MPF), COAF-related public actions.
+# Multi-status fields required: announced / published / in_force. Tier 1 source required.
+# Populated by pull request; Portal da Transparência and DOU scans (phase 3) will propose candidates.
+
+actions: []

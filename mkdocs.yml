@@ -1,0 +1,43 @@
+site_name: Brazil Accountability Tracker
+site_description: Source-tiered record of legal cases, institutional actions, legislative signals and foreign measures involving Brazilian public figures and institutions, with graded linkages.
+site_author: Felipe Villasuso Lago
+repo_url: https://github.com/felipelago17/brazilian-political-cases-academic
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - content.code.copy
+nav:
+  - Home: index.md
+  - Methodology:
+      - Source Hierarchy: methodology/source-hierarchy.md
+      - Status Taxonomy: methodology/status-taxonomy.md
+      - Linkage Grades: methodology/linkage-grades.md
+  - Trackers:
+      - Cases: cases.md
+      - Foreign Actions: foreign-actions.md
+      - Linkages: linkages.md
+      - Legislative Signals (Câmara/Senado): trackers/legislature.md
+      - US Presidential Documents (Federal Register): trackers/presidential-documents.md
+      - US Agency Releases (OFAC/DOJ/BIS): trackers/agency-releases.md
+  - Português:
+      - Início: pt/index.md
+      - Casos: pt/cases.md
+      - Ações estrangeiras: pt/foreign-actions.md
+      - Vínculos: pt/linkages.md
+  - Español:
+      - Inicio: es/index.md
+      - Casos: es/cases.md
+      - Acciones extranjeras: es/foreign-actions.md
+      - Vínculos: es/linkages.md
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - toc:
+      permalink: true

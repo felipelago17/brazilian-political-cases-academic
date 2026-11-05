@@ -1,0 +1,24 @@
+# Legislative and political signals — bills, PECs, CPIs/CPMIs, impeachment requests, Senate votes.
+# Rows are added by pull request with a Tier 1 source (Câmara/Senado open data or official pages).
+# The daily scraper (scripts/fetch_brazil_legislature.py) finds candidate items by keyword and lists
+# them on docs/trackers/legislature.md; it does not add rows here.
+
+signals: []
+
+# Keywords scanned daily against proposição ementas on the Câmara and Senado open-data APIs.
+keywords:
+  - anistia
+  - dosimetria
+  - supremo tribunal federal
+  - foro privilegiado
+  - impeachment
+  - lei magnitsky
+  - sanções
+  - improbidade
+  - lavagem de dinheiro
+  - corrupção
+  - licitações
+  - acordo de leniência
+  - delação premiada
+  - inelegibilidade
+  - emendas parlamentares

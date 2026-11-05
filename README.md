@@ -1,42 +1,49 @@
-# Brazilian Political Cases – Academic Tracker
+# Brazil Accountability Tracker
 
-Academic compilation of publicly reported legal cases involving major Brazilian political figures and institutions.
+*(repository: `brazilian-political-cases-academic` — rename to `brazil-accountability-tracker` pending)*
 
-**Status as of 31 October 2026**
+Academic, source-tiered record of **legal cases, institutional actions, legislative signals and foreign measures** involving Brazilian public figures and institutions — across parties and branches — with any connection between them recorded only as a graded linkage.
 
-## Purpose
+Site: https://felipelago17.github.io/brazilian-political-cases-academic/ (English · Português · Español)
 
-This repository documents publicly reported cases for research and academic reference. It is not affiliated with any political party, candidate, government, or judicial authority.
+**Not legal advice. Presumption of innocence applies to every entry.** Not affiliated with any party, candidate, government or court.
 
-Every entry includes:
-- At least one independent public source link
-- Notes on the availability of the official court or prosecutor decision (and how to obtain it when it is not permanently linked)
+## Layout
 
-## Contents
+```
+trackers/            YAML — single source of truth (rows added by pull request, Tier 1 source required)
+  cases.yaml                 legal cases (stage × outcome × mechanism)
+  foreign-actions.yaml       OFAC, visas, tariffs, FCPA — foreign measures touching Brazil
+  linkages.yaml              graded signal → action connections
+  legislative-signals.yaml   curated bills/CPIs/impeachment requests + daily-scan keywords
+  institutional-actions.yaml TCU / CGU / CADE / leniency (phase 3)
+  presidential-documents.yaml, agency-releases.yaml   targets for the US-side scrapers
+scripts/
+  build_pages.py             YAML → docs/{,pt/,es/} tables
+  fetch_brazil_legislature.py Câmara + Senado open-data keyword scan (no key)
+  fetch_federal_register.py  US presidential documents, Brazil-filtered (no key)
+  fetch_agency_releases.py   OFAC / DOJ / BIS releases, Brazil-filtered (no key)
+docs/                MkDocs Material site; generated pages are overwritten by the scripts
+data/                JSON outputs of the daily scans
+tracker.py           Python loader over the YAML
+REVIEW-2026-11.md    review and phased roadmap
+```
 
-- [`tracker.py`](tracker.py) – Structured data of the cases (Lula & family, Bolsonaro & family, Alexandre de Moraes, legal mechanisms, etc.)
-- [Cases (tables)](cases.md) – Readable tables of the reported cases
+## Method
 
-## Methodology
+- **Signals and actions, not "influence."** Connections appear only in `linkages.yaml` with a grade (`statutory-mandate` / `documented-request` / `proximity-only`); proximity alone is never sufficient.
+- **Tiered sources.** Tier 1 official records (STF, STJ, TSE, TCU, CGU, DOU, Câmara/Senado, OFAC, Federal Register); Tier 2 official news agencies; Tier 3 press, labelled. Campaigning outlets excluded.
+- **Controlled vocabulary** for case stage, outcome and mechanism.
+- **Coverage follows the record**, whatever the party. Aggregation by party and institution only; no per-person scorecards.
 
-Sources are limited to mainstream press, legal outlets, Agência Brasil, official court/government/legislative sites, and US DOJ/Treasury. Partisan and openly campaigning outlets are excluded.
+## Automation
 
-**Presumption of innocence:** Allegations and investigations are not findings of guilt. This is not legal advice.
+Four workflows run daily (08:00–08:20 UTC) and on relevant pushes: legislature scan, Federal Register, agency releases, and page regeneration; a fifth deploys the site. Each scraper has a `targets` list so a missing official link resolves itself on the next run.
 
-## Related open-data projects
+## Contributing
 
-This tracker records **cases** (allegations, investigations, convictions). Complementary Brazilian civic-tech projects measure **indicators** from open government data and are useful as a quantitative layer alongside the case timelines:
+Fork, edit `trackers/*.yaml` following the schema comments and the methodology pages, and open a pull request. See `REVIEW-2026-11.md` for the roadmap and open decisions.
 
-- [Operação Serenata de Amor](https://github.com/okfn-brasil/serenata-de-amor) (Open Knowledge Brasil, 2016–; MIT) — *Rosie*, a classifier that assigns a suspicion score to each congressional expense-quota (CEAP) reimbursement, and *Jarbas*, the API/dashboard that publishes flagged items for citizen validation. The project is largely dormant, but the method — unsupervised anomaly scoring over official reimbursement data, published with the underlying receipt — is the reference design for any "measurable irregularity" indicator here. Companion package: [serenata-toolbox](https://github.com/okfn-brasil/serenata-toolbox).
-- [Querido Diário](https://github.com/okfn-brasil/querido-diario) (Open Knowledge Brasil; active) — scrapes and searches municipal official gazettes; the live source for procurement and appointment notices.
-- [FiscalizaJá — Dados Abertos](https://github.com/FiscalizaJa/dadosabertos) (2023–) — normalises Chamber and Senate quota data into a single schema in English.
+## Licence
 
-Indicators from these sources would be reported separately from case entries and never read as evidence of guilt.
-
-## License
-
-Documentation and original analysis are published under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE).
-
-## Disclaimer
-
-This repository is for educational and informational purposes only. Always verify against primary sources.
+Documentation and original analysis: [CC BY 4.0](LICENSE).

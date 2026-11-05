@@ -1,0 +1,23 @@
+# US presidential documents to resolve via the Federal Register API (scripts/fetch_federal_register.py).
+scan_from: "2025-01-20"
+
+targets:
+  - id: eo-brazil-tariff-2025-07
+    label: Executive order imposing additional duties on Brazil (signed 30 Jul 2025)
+    signing_date: "2025-07-30"
+    term: Brazil
+    title_keywords: [brazil]
+  - id: eo-end-ieepa-tariffs-2026-02
+    label: Ending Certain Tariff Actions (EO 14389, after Learning Resources v. Trump)
+    signing_date: "2026-02-20"
+    term: tariff
+    title_keywords: [tariff]
+
+keywords:
+  - brazil
+  - brazilian
+  - magnitsky
+  - western hemisphere
+  - cartel
+  - foreign terrorist organization
+  - tariff

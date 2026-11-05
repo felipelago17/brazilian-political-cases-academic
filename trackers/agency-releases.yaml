@@ -1,0 +1,22 @@
+# Official US agency releases (DOJ / BIS / OFAC) touching Brazil to resolve (scripts/fetch_agency_releases.py).
+targets:
+  - id: ofac-moraes-designation-2025-07
+    label: OFAC recent action — Global Magnitsky designation of Alexandre de Moraes (30 Jul 2025)
+    agency: OFAC
+    title_any: [moraes, magnitsky, brazil]
+  - id: ofac-moraes-delisting-2025-12
+    label: OFAC recent action — removal of de Moraes and Barci de Moraes (12 Dec 2025)
+    agency: OFAC
+    title_any: [moraes, magnitsky, brazil]
+
+keywords:
+  - brazil
+  - brazilian
+  - magnitsky
+  - petrobras
+  - odebrecht
+  - braskem
+  - embraer
+  - fcpa
+  - foreign corrupt practices
+  - extradition

@@ -1,0 +1,60 @@
+# Foreign (chiefly US) government actions touching Brazilian public figures, institutions or trade.
+# These are ACTIONS by a foreign state. Any connection to a Brazilian case or decision is recorded
+# in linkages.yaml with a grade; absence of a linkage entry means no documented connection.
+# status: scheduled | announced | published | in_force | lifted
+
+- id: ofac-moraes-designation-2025-07
+  date: 2025-07-30
+  actor: US Treasury / OFAC
+  instrument: Global Magnitsky designation (SDN List)
+  target: Alexandre de Moraes (STF Justice)
+  summary: First use of the Global Magnitsky Act against a Brazilian public official; assets in US jurisdiction blocked and US persons barred from dealing with him.
+  status: {announced: 2025-07-30, published: 2025-07-30, in_force: false, lifted: 2025-12-12}
+  sources:
+    - {tier: 1, outlet: OFAC recent actions, url: "https://ofac.treasury.gov/recent-actions", note: "30 Jul 2025 entry — to resolve via agency-releases targets"}
+    - {tier: 3, outlet: Courthouse News, url: "https://www.courthousenews.com/us-sanctions-brazil-supreme-court-justice-overseeing-bolsonaro-trial/"}
+    - {tier: 3, outlet: Barnes & Thornburg, url: "https://btlaw.com/en/insights/alerts/2025/us-sanctions-brazilian-supreme-court-justice-places-50-tariff-on-brazilian-imports"}
+
+- id: ofac-barci-lex-designation-2025-09
+  date: 2025-09-22
+  actor: US Treasury / OFAC
+  instrument: Global Magnitsky designation (SDN List)
+  target: Viviane Barci de Moraes and Instituto Lex
+  summary: Designation of the Justice's wife and a family-linked institute, eleven days after the AP 2668 conviction.
+  status: {announced: 2025-09-22, published: 2025-09-22, in_force: false, lifted: 2025-12-12}
+  sources:
+    - {tier: 3, outlet: AP via WTOP, url: "https://wtop.com/news/2025/09/trump-administration-sanctions-wife-of-brazilian-judge-who-sentenced-bolsonaro-revokes-other-visas"}
+    - {tier: 3, outlet: The Brasilians, url: "https://new.thebrasilians.com/?p=47085"}
+
+- id: ofac-moraes-delisting-2025-12
+  date: 2025-12-12
+  actor: US Treasury / OFAC
+  instrument: SDN List removal
+  target: Alexandre de Moraes; Viviane Barci de Moraes
+  summary: Both removed from the SDN List; a senior US official cited consistency with US foreign-policy interests amid a Trump–Lula rapprochement and tariff roll-backs.
+  status: {announced: 2025-12-12, published: 2025-12-12, in_force: true}
+  sources:
+    - {tier: 3, outlet: Migalhas, url: "https://www.migalhas.com.br/quentes/446354/eua-revogam-sancoes-da-lei-magnitsky-contra-moraes-e-esposa"}
+    - {tier: 3, outlet: MercoPress (Agência Brasil), url: "https://en.mercopress.com/2025/12/12/de-moraes-and-wife-exit-magnitsky-act-list"}
+
+- id: us-visa-revocations-2025-07
+  date: 2025-07
+  actor: US Department of State
+  instrument: Visa revocations
+  target: Alexandre de Moraes and other STF justices and officials (as reported)
+  summary: Visa revocations announced alongside the tariff and sanctions measures; further restrictions reported in September 2025.
+  status: {announced: 2025-07, in_force: unknown}
+  sources:
+    - {tier: 3, outlet: AP via WTOP, url: "https://wtop.com/news/2025/09/trump-administration-sanctions-wife-of-brazilian-judge-who-sentenced-bolsonaro-revokes-other-visas"}
+
+- id: us-brazil-tariff-ieepa-2025-07
+  date: 2025-07-30
+  actor: US President (IEEPA)
+  instrument: Executive order imposing an additional 40 percent duty on Brazil-origin goods (50 percent total with the reciprocal tariff; Section 232 goods excluded)
+  target: Brazil (trade)
+  summary: The order's stated grounds included the treatment of former President Bolsonaro. Invalidated as a tariff measure by Learning Resources v. Trump (20 Feb 2026), which held IEEPA does not authorise tariffs; IEEPA duties ended by EO 14389 effective 24 Feb 2026.
+  status: {announced: 2025-07-09, published: 2025-07-30, in_force: false, lifted: 2026-02-24}
+  sources:
+    - {tier: 1, outlet: Federal Register, url: "https://www.federalregister.gov/", note: "EO of 30 Jul 2025 — resolve via presidential-documents targets"}
+    - {tier: 1, outlet: Supreme Court, url: "https://supreme.justia.com/cases/federal/us/607/24-1287/", note: "Learning Resources, Inc. v. Trump"}
+    - {tier: 3, outlet: Mondaq / Barnes & Thornburg, url: "https://www.mondaq.com/unitedstates/export-controls-trade-investment-sanctions/1662270/us-sanctions-brazilian-supreme-court-justice-places-50-tariff-on-brazilian-imports"}
