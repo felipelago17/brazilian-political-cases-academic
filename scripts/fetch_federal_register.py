@@ -154,7 +154,7 @@ def render_page(payload: dict) -> str:
     out += [
         "",
         "---",
-        "Presidential documents are administration actions. Any connection to a congressional signal is recorded in "
+        "Presidential documents are foreign-government actions. Any connection to a Brazilian decision is recorded in "
         "`trackers/linkages.yaml` with a [linkage grade](../methodology/linkage-grades.md).",
         "",
     ]

@@ -250,8 +250,8 @@ def render_page(payload: dict) -> str:
     else:
         out.append("_No title matches._")
     out += ["", "---",
-            "Releases are administration actions. Curated entries with amounts, conduct and sources live in "
-            "[Enforcement Actions](enforcement-actions.md); congressional connections only in `trackers/linkages.yaml`.", ""]
+            "Releases are foreign-government actions. Curated entries with sources live in "
+            "[Foreign actions](../foreign-actions.md); connections to Brazilian decisions only in `trackers/linkages.yaml`.", ""]
     return "\n".join(out)
 
 

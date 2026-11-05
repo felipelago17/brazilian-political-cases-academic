@@ -22,4 +22,4 @@ Keywords: `brazil`, `brazilian`, `magnitsky`, `petrobras`, `odebrecht`, `braskem
 | 2026-11-04 | DOJ | [Daniel Sikkema Sentenced To Life In Prison For Murder-For-Hire Of His New York Art Gallerist Husband In Brazil](https://www.justice.gov/usao-sdny/pr/daniel-sikkema-sentenced-life-prison-murder-hire-his-new-york-art-gallerist-husband) | brazil |
 
 ---
-Releases are administration actions. Curated entries with amounts, conduct and sources live in [Enforcement Actions](enforcement-actions.md); congressional connections only in `trackers/linkages.yaml`.
+Releases are administration actions. Curated entries with amounts, conduct and sources live in [Foreign actions](../foreign-actions.md); connections to Brazilian decisions only in `trackers/linkages.yaml`.
