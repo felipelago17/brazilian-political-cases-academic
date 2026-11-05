@@ -1,6 +1,6 @@
 # Presidential documents (Federal Register API)
 
-*Auto-generated 2026-11-05 06:31 UTC from the [Federal Register API](https://www.federalregister.gov/developers/documentation/api/v1). Executive orders, proclamations and memoranda on sanctions, tariffs and export controls. Public-domain content. Not legal advice.*
+*Auto-generated 2026-11-05 06:41 UTC from the [Federal Register API](https://www.federalregister.gov/developers/documentation/api/v1). Executive orders, proclamations and memoranda on sanctions, tariffs and export controls. Public-domain content. Not legal advice.*
 
 ## Resolved citations (targets)
 
@@ -43,4 +43,4 @@ Keywords: `brazil`, `brazilian`, `magnitsky`, `western hemisphere`, `cartel`, `f
 | 2025-01-20 | Executive Order | 14157 | [90 FR 8439](https://www.federalregister.gov/documents/2025/01/29/2025-02004/designating-cartels-and-other-organizations-as-foreign-terrorist-organizations-and-specially) | Designating Cartels and Other Organizations as Foreign Terrorist Organizations and Specially Designated Global Terrorists | cartel, foreign terrorist organization |
 
 ---
-Presidential documents are administration actions. Any connection to a congressional signal is recorded in `trackers/linkages.yaml` with a [linkage grade](../methodology/linkage-grades.md).
+Presidential documents are foreign-government actions. Any connection to a Brazilian decision is recorded in `trackers/linkages.yaml` with a [linkage grade](../methodology/linkage-grades.md).
