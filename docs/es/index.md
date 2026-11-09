@@ -1,18 +1,81 @@
+---
+hide:
+  - toc
+---
+
 # Brazil Accountability Tracker
 
 [English](../index.md) · [Português](../pt/index.md) · **Español**
+{ .lang-bar }
 
 Registro académico, con fuentes clasificadas por nivel, de **casos judiciales, actos institucionales, señales legislativas y medidas extranjeras** que involucran a figuras públicas e instituciones brasileñas — de todos los partidos y poderes — donde cualquier conexión entre ellos se registra solo como vínculo graduado.
+{ .lead }
 
-**No constituye asesoramiento jurídico. La presunción de inocencia se aplica a todas las entradas.** Este sitio no está afiliado a ningún partido, candidato, gobierno o tribunal.
+!!! warning "No constituye asesoramiento jurídico"
+    **La presunción de inocencia se aplica a todas las entradas.** Este sitio no está afiliado a ningún partido, candidato, gobierno o tribunal.
 
 ## Qué se registra
 
-- [Casos](cases.md) — procesos penales, civiles y electorales contra figuras públicas
-- [Acciones extranjeras](foreign-actions.md) — designaciones y retiros de la OFAC, visados, aranceles, acuerdos FCPA
-- [Vínculos](linkages.md) — conexiones graduadas entre señal y acción
-- [Señales legislativas](../trackers/legislature.md) — proyectos, PEC, CPI, solicitudes de impeachment (datos abiertos de la Cámara y el Senado; actualización diaria)
-- Actos institucionales (TCU, CGU, CADE, leniencia) — fase 3 · Elecciones 2026 — fase 4 · Indicadores — fase 4
+<div class="grid cards" markdown>
+
+-   :material-gavel: **[Casos](cases.md)**
+
+    ---
+
+    Procesos penales, civiles y electorales contra figuras públicas.
+
+-   :material-earth: **[Acciones extranjeras](foreign-actions.md)**
+
+    ---
+
+    Designaciones y retiros de la OFAC, visados, aranceles, acuerdos FCPA.
+
+-   :material-link-variant: **[Vínculos](linkages.md)**
+
+    ---
+
+    Conexiones graduadas entre señal y acción.
+
+-   :material-bank: **[Señales legislativas](../trackers/legislature.md)**
+
+    ---
+
+    Proyectos, PEC, CPI y solicitudes de impeachment (datos abiertos de la Cámara y el Senado; actualización diaria). Página en inglés.
+
+</div>
+
+### Previsto
+
+<div class="grid cards" markdown>
+
+-   **Actos institucionales**
+
+    ---
+
+    TCU, CGU, CADE, leniencia.
+
+    Fase 3
+    { .planned }
+
+-   **Elecciones 2026**
+
+    ---
+
+    Resoluciones del TSE, inelegibilidades, candidaturas.
+
+    Fase 4
+    { .planned }
+
+-   **Indicadores**
+
+    ---
+
+    Capas de anomalías en datos abiertos; presentadas aparte, nunca como prueba.
+
+    Fase 4
+    { .planned }
+
+</div>
 
 ## Método
 

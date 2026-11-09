@@ -1,21 +1,93 @@
+---
+hide:
+  - toc
+---
+
 # Brazil Accountability Tracker
 
 **English** · [Português](pt/index.md) · [Español](es/index.md)
+{ .lang-bar }
 
 An academic, source-tiered record of **legal cases, institutional actions, legislative signals and foreign measures** involving Brazilian public figures and institutions — across parties and branches — with any connection between them recorded only as a graded linkage.
+{ .lead }
 
-**Not legal advice. Presumption of innocence applies to every entry.** This site is not affiliated with any party, candidate, government or court.
+!!! warning "Not legal advice"
+    **Presumption of innocence applies to every entry.** This site is not affiliated with any party, candidate, government or court.
 
 ## What is tracked
 
-- **[Cases](cases.md)** — criminal, civil and electoral cases against public figures. Live: 7 matters, migrating from the original list.
-- **[Foreign actions](foreign-actions.md)** — US and other foreign measures: OFAC designations and delistings, visa actions, tariffs, FCPA resolutions. Live: the Magnitsky lifecycle and the 2025 tariff.
-- **[Linkages](linkages.md)** — graded signal → action connections. Live.
-- **[Legislative signals](trackers/legislature.md)** — bills, PECs, CPIs, impeachment requests from Câmara and Senado open data. Automated daily (candidates); curated rows by pull request.
-- **Institutional actions** — TCU, CGU sanction lists, CADE, leniency agreements. Phase 3.
-- **Elections 2026** — TSE rulings, ineligibilities, candidacies. Phase 4.
-- **Indicators** — open-data anomaly layers (Serenata, Querido Diário). Phase 4; reported separately, never as evidence.
-- **[US presidential documents](trackers/presidential-documents.md)** · **[US agency releases](trackers/agency-releases.md)** — Federal Register, OFAC, DOJ, BIS, Brazil-filtered. Automated daily.
+<div class="grid cards" markdown>
+
+-   :material-gavel: **[Cases](cases.md)**
+
+    ---
+
+    Criminal, civil and electoral cases against public figures. Live: 7 matters, migrating from the original list.
+
+-   :material-earth: **[Foreign actions](foreign-actions.md)**
+
+    ---
+
+    US and other foreign measures: OFAC designations and delistings, visa actions, tariffs, FCPA resolutions. Live: the Magnitsky lifecycle and the 2025 tariff.
+
+-   :material-link-variant: **[Linkages](linkages.md)**
+
+    ---
+
+    Graded signal → action connections. Live.
+
+-   :material-bank: **[Legislative signals](trackers/legislature.md)**
+
+    ---
+
+    Bills, PECs, CPIs and impeachment requests from Câmara and Senado open data. Automated daily (candidates); curated rows by pull request.
+
+-   :material-file-document-outline: **[US presidential documents](trackers/presidential-documents.md)**
+
+    ---
+
+    Executive orders, proclamations and memoranda from the Federal Register, Brazil-filtered. Automated daily.
+
+-   :material-shield-search: **[US agency releases](trackers/agency-releases.md)**
+
+    ---
+
+    OFAC, DOJ and BIS releases, Brazil-filtered. Automated daily.
+
+</div>
+
+### Planned
+
+<div class="grid cards" markdown>
+
+-   **Institutional actions**
+
+    ---
+
+    TCU, CGU sanction lists, CADE, leniency agreements.
+
+    Phase 3
+    { .planned }
+
+-   **Elections 2026**
+
+    ---
+
+    TSE rulings, ineligibilities, candidacies.
+
+    Phase 4
+    { .planned }
+
+-   **Indicators**
+
+    ---
+
+    Open-data anomaly layers (Serenata, Querido Diário); reported separately, never as evidence.
+
+    Phase 4
+    { .planned }
+
+</div>
 
 ## Method
 

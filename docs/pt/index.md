@@ -1,18 +1,81 @@
+---
+hide:
+  - toc
+---
+
 # Brazil Accountability Tracker
 
 [English](../index.md) · **Português** · [Español](../es/index.md)
+{ .lang-bar }
 
 Registro acadêmico, com fontes classificadas por nível, de **casos judiciais, atos institucionais, sinais legislativos e medidas estrangeiras** envolvendo figuras públicas e instituições brasileiras — de todos os partidos e poderes — em que qualquer conexão entre eles é registrada apenas como vínculo graduado.
+{ .lead }
 
-**Não constitui aconselhamento jurídico. A presunção de inocência aplica-se a todas as entradas.** Este site não tem vínculo com partido, candidato, governo ou tribunal.
+!!! warning "Não constitui aconselhamento jurídico"
+    **A presunção de inocência aplica-se a todas as entradas.** Este site não tem vínculo com partido, candidato, governo ou tribunal.
 
 ## O que é acompanhado
 
-- [Casos](cases.md) — processos criminais, cíveis e eleitorais contra figuras públicas
-- [Ações estrangeiras](foreign-actions.md) — designações e remoções da OFAC, vistos, tarifas, acordos FCPA
-- [Vínculos](linkages.md) — conexões graduadas entre sinal e ação
-- [Sinais legislativos](../trackers/legislature.md) — projetos, PECs, CPIs, pedidos de impeachment (dados abertos da Câmara e do Senado; atualização diária)
-- Atos institucionais (TCU, CGU, CADE, leniência) — fase 3 · Eleições 2026 — fase 4 · Indicadores — fase 4
+<div class="grid cards" markdown>
+
+-   :material-gavel: **[Casos](cases.md)**
+
+    ---
+
+    Processos criminais, cíveis e eleitorais contra figuras públicas.
+
+-   :material-earth: **[Ações estrangeiras](foreign-actions.md)**
+
+    ---
+
+    Designações e remoções da OFAC, vistos, tarifas, acordos FCPA.
+
+-   :material-link-variant: **[Vínculos](linkages.md)**
+
+    ---
+
+    Conexões graduadas entre sinal e ação.
+
+-   :material-bank: **[Sinais legislativos](../trackers/legislature.md)**
+
+    ---
+
+    Projetos, PECs, CPIs e pedidos de impeachment (dados abertos da Câmara e do Senado; atualização diária). Página em inglês.
+
+</div>
+
+### Previsto
+
+<div class="grid cards" markdown>
+
+-   **Atos institucionais**
+
+    ---
+
+    TCU, CGU, CADE, acordos de leniência.
+
+    Fase 3
+    { .planned }
+
+-   **Eleições 2026**
+
+    ---
+
+    Decisões do TSE, inelegibilidades, candidaturas.
+
+    Fase 4
+    { .planned }
+
+-   **Indicadores**
+
+    ---
+
+    Camadas de anomalias em dados abertos; apresentadas à parte, nunca como prova.
+
+    Fase 4
+    { .planned }
+
+</div>
 
 ## Método
 

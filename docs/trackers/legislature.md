@@ -6,7 +6,7 @@ Keywords: `anistia`, `dosimetria`, `supremo tribunal federal`, `foro privilegiad
 
 | Chamber | Number | Ementa | Keyword | Link |
 |---|---|---|---|---|
-| Senado | — | Dispõe sobre a concessão de anistia a pessoas processadas ou condenadas por participação em manifestações de caráter político relacionadas aos eventos do dia 8 de janeiro de 2023. | anistia | [link]() |
+| Senado | — | Dispõe sobre a concessão de anistia a pessoas processadas ou condenadas por participação em manifestações de caráter político relacionadas aos eventos do dia 8 de janeiro de 2023. | anistia | — |
 | Câmara | PL 5750/2026 | Regulamenta o inciso XLVI-A do art. 5º da Constituição Federal, que dispõe sobre o regime legal especial aplicável a integrantes e líderes de organizações criminosas de alta periculosidade ou lesividade, bem como a autor… | lavagem de dinheiro | [link](https://www.camara.leg.br/propostas-legislativas/2650486) |
 | Câmara | PL 5729/2026 | Institui a Lei Anticrime Deepfake, estabelece medidas penais, processuais e de investigação destinadas à repressão de fraudes, extorsões e organizações criminosas que utilizem inteligência artificial, deepfakes, clonagem… | lavagem de dinheiro | [link](https://www.camara.leg.br/propostas-legislativas/2649761) |
 | Câmara | PL 5645/2026 | Altera a Lei nº 8.383, de 30 de dezembro de 1991, para assegurar às instituições autorizadas a funcionar pelo Banco Central do Brasil e às demais pessoas jurídicas sujeitas a deveres legais de prevenção à lavagem de dinh… | lavagem de dinheiro | [link](https://www.camara.leg.br/propostas-legislativas/2648703) |

@@ -94,7 +94,8 @@ def render(payload: dict) -> str:
         for r in payload["items"]:
             em = (r.get("ementa") or "").replace("|", "/")
             em = em[:220] + ("…" if len(em) > 220 else "")
-            out.append(f"| {r['chamber']} | {r['number']} | {em} | {r['keyword']} | [link]({r['url']}) |")
+            link = f"[link]({r['url']})" if r.get("url") else "—"
+            out.append(f"| {r['chamber']} | {r['number']} | {em} | {r['keyword']} | {link} |")
     else:
         out.append("_No matches._")
     return "\n".join(out) + "\n"

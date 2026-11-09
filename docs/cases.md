@@ -2,7 +2,8 @@
 
 **Status as of 5 November 2026**
 
-**Presumption of innocence.** Allegations and investigations are not findings of guilt. Not legal advice.
+!!! warning ""
+    **Presumption of innocence.** Allegations and investigations are not findings of guilt. Not legal advice.
 
 Legal cases involving Brazilian public figures and institutions, across parties and branches. Source of truth: `trackers/cases.yaml`. Stages and outcomes use the fixed vocabulary in [Status taxonomy](methodology/status-taxonomy.md).
 
