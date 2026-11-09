@@ -5,6 +5,8 @@ on:
     - cron: '10 8 * * *'
   workflow_dispatch:
   push:
+    branches:
+      - main
     paths:
       - 'trackers/presidential-documents.yaml'
       - 'scripts/fetch_federal_register.py'

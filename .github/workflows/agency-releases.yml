@@ -5,6 +5,8 @@ on:
     - cron: '20 8 * * *'
   workflow_dispatch:
   push:
+    branches:
+      - main
     paths:
       - 'trackers/agency-releases.yaml'
       - 'scripts/fetch_agency_releases.py'
