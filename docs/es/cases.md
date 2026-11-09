@@ -2,7 +2,8 @@
 
 **Situación al 5 de noviembre de 2026**
 
-**Presunción de inocencia.** Las acusaciones e investigaciones no son condenas. No constituye asesoramiento jurídico.
+!!! warning ""
+    **Presunción de inocencia.** Las acusaciones e investigaciones no son condenas. No constituye asesoramiento jurídico.
 
 Casos judiciales que involucran a figuras públicas e instituciones brasileñas, de todos los partidos y poderes. Fuente: `trackers/cases.yaml`. Etapas y resultados siguen el vocabulario fijo de la [taxonomía de situación](methodology/status-taxonomy.md). 
 

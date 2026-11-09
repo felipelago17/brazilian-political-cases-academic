@@ -1,27 +1,69 @@
 site_name: Brazil Accountability Tracker
 site_description: Source-tiered record of legal cases, institutional actions, legislative signals and foreign measures involving Brazilian public figures and institutions, with graded linkages.
 site_author: Felipe Villasuso Lago
+# Update the three lines below when the repository is renamed to brazil-accountability-tracker.
+site_url: https://felipelago17.github.io/brazilian-political-cases-academic/
 repo_url: https://github.com/felipelago17/brazilian-political-cases-academic
+repo_name: felipelago17/brazilian-political-cases-academic
+copyright: CC BY 4.0 · Felipe Villasuso Lago · Not legal advice — presumption of innocence applies to every entry
 theme:
   name: material
   language: en
+  icon:
+    logo: material/scale-balance
+    repo: fontawesome/brands/github
+  favicon: assets/favicon.svg
+  font:
+    text: Inter
+    code: JetBrains Mono
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
+    - navigation.footer
+    - navigation.tracking
+    - toc.follow
     - search.suggest
+    - search.highlight
+    - search.share
     - content.code.copy
+    - content.tooltips
   palette:
-    - scheme: default
-      primary: teal
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night
         name: Dark mode
-    - scheme: slate
-      primary: teal
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Light mode
+extra:
+  alternate:
+    - name: English
+      link: ./
+      lang: en
+    - name: Português
+      link: ./pt/
+      lang: pt-BR
+    - name: Español
+      link: ./es/
+      lang: es
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/felipelago17/brazilian-political-cases-academic
+      name: Repository
+extra_css:
+  - assets/extra.css
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - assets/tablesort.js
 nav:
   - Home: index.md
   - Methodology:
@@ -54,10 +96,20 @@ nav:
       - Acciones extranjeras: es/foreign-actions.md
       - Vínculos: es/linkages.md
 plugins:
-  - search
+  - search:
+      lang:
+        - en
+        - pt
+        - es
 markdown_extensions:
   - admonition
   - tables
   - attr_list
+  - md_in_html
+  - footnotes
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       permalink: true

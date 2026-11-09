@@ -107,7 +107,7 @@ def _v(t: dict, key: str, val: str) -> str:
 def cases_page(lang: str, t: dict, today: str) -> str:
     trs = (_tr(lang).get("cases") or {})
     cases = [_overlay(c, trs.get(c["id"])) for c in _load("cases.yaml")]
-    out = [f"# {t['cases_title']}", "", f"**{t['status']} {today}**", "", t["presumption"], "", t["cases_intro"], "",
+    out = [f"# {t['cases_title']}", "", f"**{t['status']} {today}**", "", '!!! warning ""', "    " + t["presumption"], "", t["cases_intro"], "",
            f"| {t['matter']} | {t['persons']} | {t['affiliation']} | {t['stage']} | {t['outcome']} |",
            "|---|---|---|---|---|"]
     for c in cases:

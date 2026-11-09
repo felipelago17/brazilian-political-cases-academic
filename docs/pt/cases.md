@@ -2,7 +2,8 @@
 
 **Situação em 5 de novembro de 2026**
 
-**Presunção de inocência.** Acusações e investigações não são condenações. Não constitui aconselhamento jurídico.
+!!! warning ""
+    **Presunção de inocência.** Acusações e investigações não são condenações. Não constitui aconselhamento jurídico.
 
 Casos judiciais envolvendo figuras públicas e instituições brasileiras, de todos os partidos e poderes. Fonte: `trackers/cases.yaml`. Fases e resultados seguem o vocabulário fixo da [taxonomia de situação](methodology/status-taxonomy.md). 
 
