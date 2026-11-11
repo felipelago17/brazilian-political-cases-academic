@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T16:09:51+00:00",
+  "generated_at": "2026-11-11T15:51:11+00:00",
   "scan_days": 30,
   "keywords": [
     "anistia",
@@ -26,6 +26,78 @@
       "ementa": "Dispõe sobre a concessão de anistia a pessoas processadas ou condenadas por participação em manifestações de caráter político relacionadas aos eventos do dia 8 de janeiro de 2023.",
       "keyword": "anistia",
       "url": ""
+    },
+    {
+      "chamber": "Câmara",
+      "id": 2650486,
+      "number": "PL 5750/2026",
+      "ementa": "Regulamenta o inciso XLVI-A do art. 5º da Constituição Federal, que dispõe sobre o regime legal especial aplicável a integrantes e líderes de organizações criminosas de alta periculosidade ou lesividade, bem como a autores de crimes de alta lesividade cometidos mediante violência ou grave ameaça, alterando o Decreto-Lei nº 3.689, de 3 de outubro de 1941 – Código de Processo Penal; a Lei nº 7.210, de 11 de julho de 1984; a Lei nº 8.072, de 25 de julho de 1990; a Lei nº 9.807, de 13 de julho de 1999; e a Lei nº 15.358, de 24 de março de 2026.",
+      "keyword": "lavagem de dinheiro",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2650486"
+    },
+    {
+      "chamber": "Câmara",
+      "id": 2649761,
+      "number": "PL 5729/2026",
+      "ementa": "Institui a Lei Anticrime Deepfake, estabelece medidas penais, processuais e de investigação destinadas à repressão de fraudes, extorsões e organizações criminosas que utilizem inteligência artificial, deepfakes, clonagem de voz ou manipulação artificial de identidade, dispõe sobre mecanismos de preservação e rastreabilidade de evidências digitais, cria protocolo nacional de resposta emergencial a fraudes tecnológicas e estabelece medidas de bloqueio, recuperação e perda de ativos relacionados a esses crimes.",
+      "keyword": "lavagem de dinheiro",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2649761"
+    },
+    {
+      "chamber": "Câmara",
+      "id": 2648703,
+      "number": "PL 5645/2026",
+      "ementa": "Altera a Lei nº 8.383, de 30 de dezembro de 1991, para assegurar às instituições autorizadas a funcionar pelo Banco Central do Brasil e às demais pessoas jurídicas sujeitas a deveres legais de prevenção à lavagem de dinheiro, ao financiamento do terrorismo e à fraude o acesso isonômico, mediante convênio, às informações cadastrais não protegidas por sigilo fiscal mantidas pela Secretaria Especial da Receita Federal do Brasil.",
+      "keyword": "lavagem de dinheiro",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2648703"
+    },
+    {
+      "chamber": "Câmara",
+      "id": 2652676,
+      "number": "PL 5817/2026",
+      "ementa": "Altera a Lei nº 14.133, de 1º de abril de 2021, para estabelecer requisitos de planejamento, necessidade funcional, economicidade e transparência nas contratações públicas que envolvam equipamentos eletrônicos destinados ao uso institucional.",
+      "keyword": "licitações",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652676"
+    },
+    {
+      "chamber": "Câmara",
+      "id": 2648819,
+      "number": "PL 5652/2026",
+      "ementa": "Altera a Lei nº 14.133, de 1º de abril de 2022, Lei de Licitações e Contratos Administrativos, para dispor sobre o videomonitoramento de obras e serviços públicos de engenharia e dá outras providências.",
+      "keyword": "licitações",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2648819"
+    },
+    {
+      "chamber": "Câmara",
+      "id": 2647683,
+      "number": "PL 5568/2026",
+      "ementa": "Institui a Lei Nacional de Garantia do Pagamento Médico e de Continuidade Assistencial, dispõe sobre a prevenção do inadimplemento remuneratório de médicos por pessoas jurídicas que prestem, organizem, contratem, intermedeiem ou administrem serviços médicos, estabelece mecanismos de transparência, controle contratual, retenção e pagamento direto em contratos, parcerias e ajustes com o Poder Público, altera a Lei nº 3.268, de 30 de setembro de 1957, a Lei nº 9.637, de 15 de maio de 1998, e a Lei nº 14.133, de 1º de abril de 2021, e dá outras providências.",
+      "keyword": "licitações",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2647683"
+    },
+    {
+      "chamber": "Câmara",
+      "id": 2650684,
+      "number": "PLP 283/2026",
+      "ementa": "Altera a Lei Complementar nº 64, de 18 de maio de 1990, para incluir entre as causas de inelegibilidade a condenação por crime praticado mediante violência contra a mulher.",
+      "keyword": "inelegibilidade",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2650684"
+    },
+    {
+      "chamber": "Câmara",
+      "id": 2649648,
+      "number": "PLP 278/2026",
+      "ementa": "Altera a Lei Complementar nº 64, de 18 de maio de 1990 (Lei de Inelegibilidades), para incluir, entre as causas de inelegibilidade decorrentes de condenação criminal, a lesão corporal praticada contra a mulher por razões da condição do sexo feminino.",
+      "keyword": "inelegibilidade",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2649648"
+    },
+    {
+      "chamber": "Câmara",
+      "id": 2648705,
+      "number": "PLP 273/2026",
+      "ementa": "Altera a Lei Complementar nº 64, de 18 de maio de 1990, para dispor sobre o abuso do poder acadêmico.",
+      "keyword": "inelegibilidade",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2648705"
     }
   ]
 }
