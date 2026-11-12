@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T15:51:11+00:00",
+  "generated_at": "2026-11-12T16:34:25+00:00",
   "scan_days": 30,
   "keywords": [
     "anistia",
@@ -26,6 +26,14 @@
       "ementa": "Dispõe sobre a concessão de anistia a pessoas processadas ou condenadas por participação em manifestações de caráter político relacionadas aos eventos do dia 8 de janeiro de 2023.",
       "keyword": "anistia",
       "url": ""
+    },
+    {
+      "chamber": "Câmara",
+      "id": 2652515,
+      "number": "PL 5811/2026",
+      "ementa": "Dispõe sobre a oferta e a negociação de contratos derivativos não financeiros referenciados em eventos reais ou virtuais não representativos de referencial econômico-financeiro, a critério da Comissão de Valores Mobiliários, e dá outras providências.",
+      "keyword": "lavagem de dinheiro",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652515"
     },
     {
       "chamber": "Câmara",
@@ -58,6 +66,14 @@
       "ementa": "Altera a Lei nº 14.133, de 1º de abril de 2021, para estabelecer requisitos de planejamento, necessidade funcional, economicidade e transparência nas contratações públicas que envolvam equipamentos eletrônicos destinados ao uso institucional.",
       "keyword": "licitações",
       "url": "https://www.camara.leg.br/propostas-legislativas/2652676"
+    },
+    {
+      "chamber": "Câmara",
+      "id": 2652521,
+      "number": "PL 5815/2026",
+      "ementa": "Institui a Política Nacional de Inclusão Produtiva, Qualificação Profissional e Superação da Vulnerabilidade Socioeconômica; altera as Leis nº 8.742, de 7 de dezembro de 1993, nº 14.133, de 1º de abril de 2021, e nº 14.601, de 19 de junho de 2023; e dá outras providências.",
+      "keyword": "licitações",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652521"
     },
     {
       "chamber": "Câmara",
