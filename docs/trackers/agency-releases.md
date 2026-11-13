@@ -1,6 +1,6 @@
 # Agency enforcement releases (DOJ · BIS · OFAC)
 
-*Auto-generated 2026-11-12 16:50 UTC from official DOJ, BIS and OFAC web pages (DOJ via RSS; BIS and OFAC via their HTML listings — OFAC retired its RSS feed in January 2025). Keyword-filtered for Brazil-related items. Public-domain content. Not legal advice.*
+*Auto-generated 2026-11-13 16:29 UTC from official DOJ, BIS and OFAC web pages (DOJ via RSS; BIS and OFAC via their HTML listings — OFAC retired its RSS feed in January 2025). Keyword-filtered for Brazil-related items. Public-domain content. Not legal advice.*
 
 Sources reachable this run: DOJ RSS (25), BIS (51), OFAC (64)
 
