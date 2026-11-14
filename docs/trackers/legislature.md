@@ -1,6 +1,6 @@
 # Legislative signals (Câmara / Senado open data)
 
-*Auto-generated 2026-11-13 15:55 UTC from the Câmara dos Deputados and Senado Federal open-data APIs. Candidate items only — curated rows live in `trackers/legislative-signals.yaml`. Not legal advice.*
+*Auto-generated 2026-11-14 14:46 UTC from the Câmara dos Deputados and Senado Federal open-data APIs. Candidate items only — curated rows live in `trackers/legislative-signals.yaml`. Not legal advice.*
 
 Keywords: `anistia`, `dosimetria`, `supremo tribunal federal`, `foro privilegiado`, `impeachment`, `lei magnitsky`, `sanções`, `improbidade`, `lavagem de dinheiro`, `corrupção`, `licitações`, `acordo de leniência`, `delação premiada`, `inelegibilidade`, `emendas parlamentares` · Câmara window: proposições presented in the last 30 days · Senado: matérias em tramitação
 
@@ -14,7 +14,6 @@ Keywords: `anistia`, `dosimetria`, `supremo tribunal federal`, `foro privilegiad
 | Câmara | PL 5817/2026 | Altera a Lei nº 14.133, de 1º de abril de 2021, para estabelecer requisitos de planejamento, necessidade funcional, economicidade e transparência nas contratações públicas que envolvam equipamentos eletrônicos destinados… | licitações | [link](https://www.camara.leg.br/propostas-legislativas/2652676) |
 | Câmara | PL 5815/2026 | Institui a Política Nacional de Inclusão Produtiva, Qualificação Profissional e Superação da Vulnerabilidade Socioeconômica; altera as Leis nº 8.742, de 7 de dezembro de 1993, nº 14.133, de 1º de abril de 2021, e nº 14.6… | licitações | [link](https://www.camara.leg.br/propostas-legislativas/2652521) |
 | Câmara | PL 5652/2026 | Altera a Lei nº 14.133, de 1º de abril de 2022, Lei de Licitações e Contratos Administrativos, para dispor sobre o videomonitoramento de obras e serviços públicos de engenharia e dá outras providências. | licitações | [link](https://www.camara.leg.br/propostas-legislativas/2648819) |
-| Câmara | PL 5568/2026 | Institui a Lei Nacional de Garantia do Pagamento Médico e de Continuidade Assistencial, dispõe sobre a prevenção do inadimplemento remuneratório de médicos por pessoas jurídicas que prestem, organizem, contratem, interme… | licitações | [link](https://www.camara.leg.br/propostas-legislativas/2647683) |
 | Câmara | PLP 283/2026 | Altera a Lei Complementar nº 64, de 18 de maio de 1990, para incluir entre as causas de inelegibilidade a condenação por crime praticado mediante violência contra a mulher. | inelegibilidade | [link](https://www.camara.leg.br/propostas-legislativas/2650684) |
 | Câmara | PLP 278/2026 | Altera a Lei Complementar nº 64, de 18 de maio de 1990 (Lei de Inelegibilidades), para incluir, entre as causas de inelegibilidade decorrentes de condenação criminal, a lesão corporal praticada contra a mulher por razões… | inelegibilidade | [link](https://www.camara.leg.br/propostas-legislativas/2649648) |
 | Câmara | PLP 273/2026 | Altera a Lei Complementar nº 64, de 18 de maio de 1990, para dispor sobre o abuso do poder acadêmico. | inelegibilidade | [link](https://www.camara.leg.br/propostas-legislativas/2648705) |
