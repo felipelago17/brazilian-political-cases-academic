@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T17:22:47+00:00",
+  "generated_at": "2026-11-18T16:56:14+00:00",
   "scan_days": 30,
   "keywords": [
     "anistia",
@@ -26,6 +26,14 @@
       "ementa": "Dispõe sobre a concessão de anistia a pessoas processadas ou condenadas por participação em manifestações de caráter político relacionadas aos eventos do dia 8 de janeiro de 2023.",
       "keyword": "anistia",
       "url": ""
+    },
+    {
+      "chamber": "Câmara",
+      "id": 2654765,
+      "number": "PL 5884/2026",
+      "ementa": "Institui a Lei das Fronteiras Inteligentes, cria o Programa Nacional Integrado de Proteção e Monitoramento de Fronteiras e Divisas, estabelece mecanismos de inteligência preditiva e integração tecnológica entre órgãos federais e forças de segurança estaduais, e destina recursos provenientes de bens e valores vinculados ao tráfico de drogas para o fortalecimento da segurança fronteiriça e dá outras providências.",
+      "keyword": "lavagem de dinheiro",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2654765"
     },
     {
       "chamber": "Câmara",

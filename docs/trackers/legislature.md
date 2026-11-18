@@ -1,12 +1,13 @@
 # Legislative signals (Câmara / Senado open data)
 
-*Auto-generated 2026-11-17 17:22 UTC from the Câmara dos Deputados and Senado Federal open-data APIs. Candidate items only — curated rows live in `trackers/legislative-signals.yaml`. Not legal advice.*
+*Auto-generated 2026-11-18 16:56 UTC from the Câmara dos Deputados and Senado Federal open-data APIs. Candidate items only — curated rows live in `trackers/legislative-signals.yaml`. Not legal advice.*
 
 Keywords: `anistia`, `dosimetria`, `supremo tribunal federal`, `foro privilegiado`, `impeachment`, `lei magnitsky`, `sanções`, `improbidade`, `lavagem de dinheiro`, `corrupção`, `licitações`, `acordo de leniência`, `delação premiada`, `inelegibilidade`, `emendas parlamentares` · Câmara window: proposições presented in the last 30 days · Senado: matérias em tramitação
 
 | Chamber | Number | Ementa | Keyword | Link |
 |---|---|---|---|---|
 | Senado | — | Dispõe sobre a concessão de anistia a pessoas processadas ou condenadas por participação em manifestações de caráter político relacionadas aos eventos do dia 8 de janeiro de 2023. | anistia | [link]() |
+| Câmara | PL 5884/2026 | Institui a Lei das Fronteiras Inteligentes, cria o Programa Nacional Integrado de Proteção e Monitoramento de Fronteiras e Divisas, estabelece mecanismos de inteligência preditiva e integração tecnológica entre órgãos fe… | lavagem de dinheiro | [link](https://www.camara.leg.br/propostas-legislativas/2654765) |
 | Câmara | PL 5811/2026 | Dispõe sobre a oferta e a negociação de contratos derivativos não financeiros referenciados em eventos reais ou virtuais não representativos de referencial econômico-financeiro, a critério da Comissão de Valores Mobiliár… | lavagem de dinheiro | [link](https://www.camara.leg.br/propostas-legislativas/2652515) |
 | Câmara | PL 5750/2026 | Regulamenta o inciso XLVI-A do art. 5º da Constituição Federal, que dispõe sobre o regime legal especial aplicável a integrantes e líderes de organizações criminosas de alta periculosidade ou lesividade, bem como a autor… | lavagem de dinheiro | [link](https://www.camara.leg.br/propostas-legislativas/2650486) |
 | Câmara | PL 5729/2026 | Institui a Lei Anticrime Deepfake, estabelece medidas penais, processuais e de investigação destinadas à repressão de fraudes, extorsões e organizações criminosas que utilizem inteligência artificial, deepfakes, clonagem… | lavagem de dinheiro | [link](https://www.camara.leg.br/propostas-legislativas/2649761) |
