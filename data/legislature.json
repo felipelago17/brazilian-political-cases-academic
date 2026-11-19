@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T16:56:14+00:00",
+  "generated_at": "2026-11-19T17:03:07+00:00",
   "scan_days": 30,
   "keywords": [
     "anistia",
@@ -98,6 +98,14 @@
       "ementa": "Altera a Lei nº 14.133, de 1º de abril de 2022, Lei de Licitações e Contratos Administrativos, para dispor sobre o videomonitoramento de obras e serviços públicos de engenharia e dá outras providências.",
       "keyword": "licitações",
       "url": "https://www.camara.leg.br/propostas-legislativas/2648819"
+    },
+    {
+      "chamber": "Câmara",
+      "id": 2655210,
+      "number": "PLP 312/2026",
+      "ementa": "Altera a Lei Complementar nº 64, de 18 de maio de 1990 (Lei das Inelegibilidades), para estabelecer prazo de desincompatibilização de vinte e quatro meses para os profissionais do magistério público.",
+      "keyword": "inelegibilidade",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655210"
     },
     {
       "chamber": "Câmara",
