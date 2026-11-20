@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T17:03:07+00:00",
+  "generated_at": "2026-11-20T16:42:04+00:00",
   "scan_days": 30,
   "keywords": [
     "anistia",
@@ -19,6 +19,14 @@
     "emendas parlamentares"
   ],
   "items": [
+    {
+      "chamber": "Câmara",
+      "id": 2655664,
+      "number": "PL 5916/2026",
+      "ementa": "Altera o parágrafo único do art. 1º da Lei nº 8.072, de 25 de julho de 1990, para considerar hediondo o homicídio praticado na direção de veículo automotor, quando praticado em concurso com a condução de veículo com capacidade psicomotora alterada em razão da influência de álcool ou de outra substância psicoativa que determine dependência (art. 306 do CTB) ou com a participação em corrida, disputa ou competição automobilística não autorizada (art. 308 do CTB), vedando fiança, anistia, graça e indulto e impondo cumprimento inicial da pena em regime fechado.",
+      "keyword": "anistia",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655664"
+    },
     {
       "chamber": "Senado",
       "id": null,
